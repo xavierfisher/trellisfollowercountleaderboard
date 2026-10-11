@@ -156,19 +156,11 @@
                     tdUser.appendChild(ph);
                 }
 
-                 if (u.verified) {
-                    var icon = document.createElement('img');
-                    icon.className = 'verified-icon';
-                    icon.src = 'verified.png';
-                    icon.alt = 'Verified';
-                    icon.title = 'Verified';
-                    tdUser.appendChild(icon);
-
                 var a = document.createElement('a');
                 a.href = u.profile;
                 a.target = '_blank';
                 a.rel = 'noopener';
-                a.textContent = cleanName || u.username;
+                a.textContent = String(u.username || '').replace(/\bVerified\b/gi, '').replace(/\s+/g, ' ').trim();
                 tdUser.appendChild(a);
 
                 tr.appendChild(tdUser);
