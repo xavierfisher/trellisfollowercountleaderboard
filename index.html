@@ -246,7 +246,7 @@
                     'Loaded ' + leaderboard.length + ' users' +
                     (rawData.failed ? ' (' + rawData.failed + ' skipped)' : '');
 
-                metaEl.textContent = 'Generated: ' + generated +
+                metaEl.textContent = 'Last Updated: ' + generated +
                     ' · Scanned: ' + (rawData.totalFetched || '?') + ' IDs';
 
                 if (rawData.failed && rawData.failed > 0) {
