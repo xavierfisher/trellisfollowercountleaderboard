@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follower Leaderboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 0 15px;
+            color: #222;
+        }
+        h1 { font-size: 22px; margin-bottom: 5px; }
+        p { color: #555; font-size: 14px; margin-top: 0; }
+        button {
+            padding: 8px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            background: #222;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-right: 8px;
+        }
+        button:disabled { background: #aaa; cursor: not-allowed; }
+        #status { margin: 12px 0; font-size: 14px; color: #333; }
+        #error { color: #b00; font-size: 13px; margin: 8px 0; display: none; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+            font-size: 14px;
+        }
+        th { background: #f5f5f5; font-size: 13px; }
+        .avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            vertical-align: middle;
+            margin-right: 8px;
+            background: #eee;
+        }
+        .avatar-placeholder {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #ddd;
+            vertical-align: middle;
+            margin-right: 8px;
+            text-align: center;
+            line-height: 30px;
+            font-size: 14px;
+            color: #666;
+        }
+        .empty { padding: 20px 0; color: #777; font-size: 14px; }
+        a { color: #06c; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <h1>Follower Leaderboard</h1>
+    <p>Users 1–300 · ranked by followers (0–9999)</p>
+
+    <button id="loadBtn">Load</button>
+    <button id="jsonBtn" disabled>JSON</button>
+    <button id="csvBtn" disabled>CSV</button>
+
+    <div id="status">Click "Load" to start.</div>
+    <div id="error"></div>
+
+    <div id="emptyState" class="empty" style="display:none;">No valid users found.</div>
+
+    <table id="table" style="display:none;">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>User</th>
+                <th>Followers</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+
+    <script src="https://xavierfisher.uk/trellisfollowleaderborad/assets/makeitwork.js"></script>
+</body>
+</html>
