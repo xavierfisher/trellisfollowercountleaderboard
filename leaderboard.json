@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-11T19:12:43.116Z",
+  "generatedAt": "2026-10-11T22:57:14.779Z",
   "totalFetched": 1000,
-  "failed": 726,
-  "count": 274,
+  "failed": 725,
+  "count": 275,
   "leaderboard": [
     {
       "rank": 1,
       "id": 47,
       "username": "zachking         Verified",
-      "followers": 104,
+      "followers": 105,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/8B7C4D1C43989321337627697152_1c8c3b66554.3.2_gFUQczJD5TTWOHv1D.29VSre6aYY4WISIjqqMNpL6lErU16rQVlQd3VwRhAiTzvd.jpg?versionId=VeRx1.1B.9PEDYXTT2dEJtnrNPn_lwvh",
       "profile": "https://trellis.consciousb.one/web/user.php?id=47",
       "verified": true
@@ -17,7 +17,7 @@
       "rank": 2,
       "id": 34,
       "username": "Xavier",
-      "followers": 89,
+      "followers": 90,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_34_aca7431b.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=34",
       "verified": true
@@ -53,7 +53,7 @@
       "rank": 6,
       "id": 1,
       "username": "calvink19         Verified",
-      "followers": 80,
+      "followers": 81,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/1_1782614657.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=1",
       "verified": true
@@ -117,7 +117,7 @@
       "id": 12,
       "username": "Bus On Trellis         Verified",
       "followers": 29,
-      "avatar": "https://trellis.consciousb.one/dynamic/avatars/12_1785019956.jpg",
+      "avatar": "http://trls.uk/dynamic/avatars/12_1791755864.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=12",
       "verified": true
     },
@@ -2190,6 +2190,15 @@
       "avatar": "http://trls.uk/dynamic/avatars/265_1790604715.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=265",
       "verified": true
+    },
+    {
+      "rank": 233,
+      "id": 267,
+      "username": "JobsBR",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_267_54c9c92d.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=267",
+      "verified": false
     },
     {
       "rank": 233,
