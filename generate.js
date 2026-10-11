@@ -2,8 +2,6 @@
  * generate.js
  * Fetches Trellis users 1–1000, skips "This user doesn't exist." pages,
  * ranks valid users by follower count, and writes leaderboard.json.
- *
- * Run by GitHub Actions, or manually with: node generate.js
  */
 
 const fs = require('fs');
@@ -46,7 +44,6 @@ async function fetchWithRetry(url) {
 }
 
 // ---------- Parsing ----------
-// Detect the exact "This user doesn't exist." page
 function isMissingUser(html) {
   if (/This user doesn'?t exist\.?/i.test(html)) return true;
   if (/User\s+not\s+found/i.test(html)) return true;
@@ -108,8 +105,7 @@ function parseFollowers(html) {
 }
 
 function parseAvatar(html, id) {
-  // Look for <img src="..." class="img-polaroid" ...>
-  // Handles class before or after src.
+  // Primary: <img src="..." class="img-polaroid" ...>
   var patterns = [
     /<img[^>]*\bsrc=["']([^"']+)["'][^>]*\bclass=["'][^"']*\bimg-polaroid\b[^"']*["']/i,
     /<img[^>]*\bclass=["'][^"']*\bimg-polaroid\b[^"']*["'][^>]*\bsrc=["']([^"']+)["']/i
@@ -125,7 +121,7 @@ function parseAvatar(html, id) {
     }
   }
 
-  // Fallback: any image whose src contains /dynamic/avatars/avatar_
+  // Fallback: any /dynamic/avatars/avatar_ image
   var imgRe = /<img[^>]+src=["']([^"']*\/dynamic\/avatars\/avatar_[^"']*)["']/gi;
   var m2;
   while ((m2 = imgRe.exec(html)) !== null) {
@@ -136,7 +132,6 @@ function parseAvatar(html, id) {
     return 'https://trellis.consciousb.one/' + s;
   }
 
-  // Last resort: construct from known pattern
   return AVATAR_BASE + id + '.png';
 }
 
@@ -158,7 +153,6 @@ async function fetchUser(id) {
 
   const html = await res.text();
 
-  // Skip non-existent users entirely
   if (isMissingUser(html)) {
     return { id, ok: false, reason: 'missing' };
   }
@@ -180,7 +174,7 @@ async function fetchUser(id) {
   };
 }
 
-// ---------- Fetch all with concurrency ----------
+// ---------- Fetch all ----------
 async function fetchAll() {
   const ids = [];
   for (let i = MIN_ID; i <= MAX_ID; i++) ids.push(i);
