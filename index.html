@@ -156,11 +156,13 @@
                     tdUser.appendChild(ph);
                 }
 
-                // Strip the word "Verified" from the username if present
-                var cleanName = String(u.username || '')
-                    .replace(/\bVerified\b/gi, '')
-                    .replace(/\s+/g, ' ')
-                    .trim();
+                 if (u.verified) {
+                    var icon = document.createElement('img');
+                    icon.className = 'verified-icon';
+                    icon.src = 'verified.png';
+                    icon.alt = 'Verified';
+                    icon.title = 'Verified';
+                    tdUser.appendChild(icon);
 
                 var a = document.createElement('a');
                 a.href = u.profile;
