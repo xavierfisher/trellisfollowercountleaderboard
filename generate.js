@@ -108,15 +108,35 @@ function parseFollowers(html) {
 }
 
 function parseAvatar(html, id) {
-  const imgRe = /<img[^>]+src=["']([^"']*\/dynamic\/avatars\/avatar_[^"']*)["']/gi;
-  let m;
-  while ((m = imgRe.exec(html)) !== null) {
-    let src = m[1];
-    if (src.startsWith('http')) return src;
-    if (src.startsWith('//')) return 'https:' + src;
-    if (src.startsWith('/')) return 'https://trellis.consciousb.one' + src;
-    return 'https://trellis.consciousb.one/' + src;
+  // Look for <img src="..." class="img-polaroid" ...>
+  // The class may come before or after src, so check both orderings.
+  var patterns = [
+    /<img[^>]*\bsrc=["']([^"']+)["'][^>]*\bclass=["'][^"']*\bimg-polaroid\b[^"']*["']/i,
+    /<img[^>]*\bclass=["'][^"']*\bimg-polaroid\b[^"']*["'][^>]*\bsrc=["']([^"']+)["']/i
+  ];
+  for (var i = 0; i < patterns.length; i++) {
+    var m = html.match(patterns[i]);
+    if (m && m[1]) {
+      var src = m[1].trim();
+      if (src.indexOf('http') === 0) return src;
+      if (src.indexOf('//') === 0) return 'https:' + src;
+      if (src.indexOf('/') === 0) return 'https://trellis.consciousb.one' + src;
+      return 'https://trellis.consciousb.one/' + src;
+    }
   }
+
+  // Fallback: any image whose src contains /dynamic/avatars/avatar_
+  var imgRe = /<img[^>]+src=["']([^"']*\/dynamic\/avatars\/avatar_[^"']*)["']/gi;
+  var m2;
+  while ((m2 = imgRe.exec(html)) !== null) {
+    var s = m2[1];
+    if (s.indexOf('http') === 0) return s;
+    if (s.indexOf('//') === 0) return 'https:' + s;
+    if (s.indexOf('/') === 0) return 'https://trellis.consciousb.one' + s;
+    return 'https://trellis.consciousb.one/' + s;
+  }
+
+  // Last resort: construct from known pattern
   return AVATAR_BASE + id + '.png';
 }
 
