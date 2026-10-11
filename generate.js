@@ -109,7 +109,7 @@ function parseFollowers(html) {
 
 function parseAvatar(html, id) {
   // Look for <img src="..." class="img-polaroid" ...>
-  // The class may come before or after src, so check both orderings.
+  // Handles class before or after src.
   var patterns = [
     /<img[^>]*\bsrc=["']([^"']+)["'][^>]*\bclass=["'][^"']*\bimg-polaroid\b[^"']*["']/i,
     /<img[^>]*\bclass=["'][^"']*\bimg-polaroid\b[^"']*["'][^>]*\bsrc=["']([^"']+)["']/i
@@ -138,6 +138,11 @@ function parseAvatar(html, id) {
 
   // Last resort: construct from known pattern
   return AVATAR_BASE + id + '.png';
+}
+
+// Detect the word "Verified" anywhere in the HTML
+function parseVerified(html) {
+  return /\bVerified\b/.test(html);
 }
 
 // ---------- Fetch one user ----------
@@ -170,7 +175,8 @@ async function fetchUser(id) {
     followers,
     username: parseUsername(html, id),
     avatar: parseAvatar(html, id),
-    profile: url
+    profile: url,
+    verified: parseVerified(html)
   };
 }
 
@@ -241,7 +247,8 @@ async function fetchAll() {
       username: u.username,
       followers: u.followers,
       avatar: u.avatar,
-      profile: u.profile
+      profile: u.profile,
+      verified: u.verified === true
     }))
   };
 
