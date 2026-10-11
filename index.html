@@ -166,7 +166,7 @@
                 a.href = u.profile;
                 a.target = '_blank';
                 a.rel = 'noopener';
-                a.textContent = cleanName || u.username;
+                a.textContent = String(u.username || '').replace(/\bVerified\b/gi, '').replace(/\s+/g, ' ').trim();
                 tdUser.appendChild(a);
 
                 // Insert verified.png icon if user is verified
