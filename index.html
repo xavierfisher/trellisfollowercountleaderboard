@@ -59,12 +59,13 @@
         .empty { padding: 20px 0; color: #777; font-size: 14px; }
         a { color: #06c; text-decoration: none; }
         a:hover { text-decoration: underline; }
+        .meta { font-size: 12px; color: #888; margin-top: 10px; }
     </style>
 </head>
 <body>
 
-    <h1>Follower Leaderboard</h1>
-    <p>Users 1–300 · ranked by followers (0–9999)</p>
+    <h1>Trellis Follower Count Leaderboard</h1>
+    <p>Users 1–1000 · ranked by followers (0–9999) · auto-updated by GitHub Actions</p>
 
     <button id="loadBtn">Load</button>
     <button id="jsonBtn" disabled>JSON</button>
@@ -86,6 +87,181 @@
         <tbody id="tbody"></tbody>
     </table>
 
-    <script src="https://xavierfisher.uk/trellisfollowleaderborad/assets/makeitwork.js"></script>
+    <div class="meta" id="meta"></div>
+
+    <script>
+    (function () {
+        'use strict';
+
+        var DATA_URL = 'leaderboard.json';
+
+        var loadBtn = document.getElementById('loadBtn');
+        var jsonBtn = document.getElementById('jsonBtn');
+        var csvBtn = document.getElementById('csvBtn');
+        var statusEl = document.getElementById('status');
+        var errorEl = document.getElementById('error');
+        var emptyEl = document.getElementById('emptyState');
+        var table = document.getElementById('table');
+        var tbody = document.getElementById('tbody');
+        var metaEl = document.getElementById('meta');
+
+        var leaderboard = [];
+        var isLoading = false;
+
+        function render(list) {
+            tbody.innerHTML = '';
+            if (!list.length) {
+                table.style.display = 'none';
+                emptyEl.style.display = 'block';
+                return;
+            }
+            table.style.display = 'table';
+            emptyEl.style.display = 'none';
+
+            list.forEach(function (u) {
+                var tr = document.createElement('tr');
+
+                var tdRank = document.createElement('td');
+                tdRank.textContent = u.rank;
+                tr.appendChild(tdRank);
+
+                var tdUser = document.createElement('td');
+
+                if (u.avatar) {
+                    var img = document.createElement('img');
+                    img.className = 'avatar';
+                    img.src = u.avatar;
+                    img.alt = '';
+                    img.loading = 'lazy';
+                    img.onerror = function () {
+                        var ph = document.createElement('span');
+                        ph.className = 'avatar-placeholder';
+                        ph.textContent = '?';
+                        if (this.parentNode) this.parentNode.replaceChild(ph, this);
+                    };
+                    tdUser.appendChild(img);
+                } else {
+                    var ph = document.createElement('span');
+                    ph.className = 'avatar-placeholder';
+                    ph.textContent = '?';
+                    tdUser.appendChild(ph);
+                }
+
+                var a = document.createElement('a');
+                a.href = u.profile;
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.textContent = u.username;
+                tdUser.appendChild(a);
+                tr.appendChild(tdUser);
+
+                var tdF = document.createElement('td');
+                tdF.textContent = Number(u.followers).toLocaleString();
+                tr.appendChild(tdF);
+
+                tbody.appendChild(tr);
+            });
+        }
+
+        function download(text, filename, mime) {
+            var blob = new Blob([text], { type: mime });
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        if (jsonBtn) {
+            jsonBtn.addEventListener('click', function () {
+                if (!leaderboard.length) return;
+                download(JSON.stringify(leaderboard, null, 2), 'leaderboard.json', 'application/json');
+            });
+        }
+
+        if (csvBtn) {
+            csvBtn.addEventListener('click', function () {
+                if (!leaderboard.length) return;
+                function esc(s) { return '"' + String(s).replace(/"/g, '""') + '"'; }
+                var lines = ['rank,id,username,followers,avatar,profile'];
+                leaderboard.forEach(function (u) {
+                    lines.push([
+                        u.rank, u.id, esc(u.username), u.followers,
+                        esc(u.avatar), esc(u.profile)
+                    ].join(','));
+                });
+                download(lines.join('\n'), 'leaderboard.csv', 'text/csv');
+            });
+        }
+
+        async function load() {
+            if (isLoading) return;
+            isLoading = true;
+
+            loadBtn.disabled = true;
+            jsonBtn.disabled = true;
+            csvBtn.disabled = true;
+            errorEl.style.display = 'none';
+            emptyEl.style.display = 'none';
+            table.style.display = 'none';
+            statusEl.textContent = 'Loading leaderboard.json…';
+
+            try {
+                var res = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+
+                var rawData = await res.json();
+
+                if (!rawData || !Array.isArray(rawData.leaderboard)) {
+                    throw new Error('Invalid JSON format');
+                }
+
+                leaderboard = rawData.leaderboard;
+                render(leaderboard);
+
+                var generated = rawData.generatedAt
+                    ? new Date(rawData.generatedAt).toLocaleString()
+                    : 'unknown';
+
+                statusEl.textContent =
+                    'Loaded ' + leaderboard.length + ' users' +
+                    (rawData.failed ? ' (' + rawData.failed + ' skipped)' : '');
+
+                metaEl.textContent = 'Generated: ' + generated +
+                    ' · Scanned: ' + (rawData.totalFetched || '?') + ' IDs';
+
+                if (rawData.failed && rawData.failed > 0) {
+                    errorEl.textContent = rawData.failed +
+                        ' users were skipped (non-existent or no follower data).';
+                    errorEl.style.display = 'block';
+                }
+
+                if (leaderboard.length > 0) {
+                    jsonBtn.disabled = false;
+                    csvBtn.disabled = false;
+                }
+            } catch (e) {
+                console.error(e);
+                statusEl.textContent = 'Error';
+                errorEl.textContent = 'Could not load leaderboard.json: ' + e.message;
+                errorEl.style.display = 'block';
+            } finally {
+                isLoading = false;
+                loadBtn.disabled = false;
+            }
+        }
+
+        loadBtn.addEventListener('click', load);
+        window.addEventListener('DOMContentLoaded', load);
+
+        window.TrellisLeaderboard = {
+            load: load,
+            getData: function () { return leaderboard; }
+        };
+    })();
+    </script>
 </body>
 </html>
