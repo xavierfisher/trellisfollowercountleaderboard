@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Follower Leaderboard</title>
+    <title>Trellis Follower Count Leaderboard</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,6 +42,7 @@
             vertical-align: middle;
             margin-right: 8px;
             background: #eee;
+            object-fit: cover;
         }
         .avatar-placeholder {
             display: inline-block;
@@ -56,20 +57,18 @@
             font-size: 14px;
             color: #666;
         }
+        .verified-icon {
+            width: 16px;
+            height: 16px;
+            margin-left: 6px;
+            vertical-align: middle;
+            display: inline-block;
+            object-fit: contain;
+        }
         .empty { padding: 20px 0; color: #777; font-size: 14px; }
         a { color: #06c; text-decoration: none; }
         a:hover { text-decoration: underline; }
         .meta { font-size: 12px; color: #888; margin-top: 10px; }
-
-        .verified-icon {
-    width: 16px;
-    height: 16px;
-    margin-left: 6px;
-    vertical-align: middle;
-    display: inline-block;
-    object-fit: contain;
-}
-        
     </style>
 </head>
 <body>
@@ -100,188 +99,195 @@
     <div class="meta" id="meta"></div>
 
     <script>
-(function () {
-    'use strict';
+    (function () {
+        'use strict';
 
-    var DATA_URL = 'leaderboard.json';
+        var DATA_URL = 'leaderboard.json';
 
-    var loadBtn = document.getElementById('loadBtn');
-    var jsonBtn = document.getElementById('jsonBtn');
-    var csvBtn = document.getElementById('csvBtn');
-    var statusEl = document.getElementById('status');
-    var errorEl = document.getElementById('error');
-    var emptyEl = document.getElementById('emptyState');
-    var table = document.getElementById('table');
-    var tbody = document.getElementById('tbody');
-    var metaEl = document.getElementById('meta');
+        var loadBtn = document.getElementById('loadBtn');
+        var jsonBtn = document.getElementById('jsonBtn');
+        var csvBtn = document.getElementById('csvBtn');
+        var statusEl = document.getElementById('status');
+        var errorEl = document.getElementById('error');
+        var emptyEl = document.getElementById('emptyState');
+        var table = document.getElementById('table');
+        var tbody = document.getElementById('tbody');
+        var metaEl = document.getElementById('meta');
 
-    var leaderboard = [];
-    var isLoading = false;
+        var leaderboard = [];
+        var isLoading = false;
 
-    function render(list) {
-        tbody.innerHTML = '';
-        if (!list.length) {
-            table.style.display = 'none';
-            emptyEl.style.display = 'block';
-            return;
-        }
-        table.style.display = 'table';
-        emptyEl.style.display = 'none';
+        function render(list) {
+            tbody.innerHTML = '';
+            if (!list.length) {
+                table.style.display = 'none';
+                emptyEl.style.display = 'block';
+                return;
+            }
+            table.style.display = 'table';
+            emptyEl.style.display = 'none';
 
-        list.forEach(function (u) {
-            var tr = document.createElement('tr');
+            list.forEach(function (u) {
+                var tr = document.createElement('tr');
 
-            var tdRank = document.createElement('td');
-            tdRank.textContent = u.rank;
-            tr.appendChild(tdRank);
+                var tdRank = document.createElement('td');
+                tdRank.textContent = u.rank;
+                tr.appendChild(tdRank);
 
-            var tdUser = document.createElement('td');
+                var tdUser = document.createElement('td');
 
-            if (u.avatar) {
-                var img = document.createElement('img');
-                img.className = 'avatar';
-                img.src = u.avatar;
-                img.alt = '';
-                img.loading = 'lazy';
-                img.onerror = function () {
+                if (u.avatar) {
+                    var img = document.createElement('img');
+                    img.className = 'avatar';
+                    img.src = u.avatar;
+                    img.alt = '';
+                    img.loading = 'lazy';
+                    img.onerror = function () {
+                        var ph = document.createElement('span');
+                        ph.className = 'avatar-placeholder';
+                        ph.textContent = '?';
+                        if (this.parentNode) this.parentNode.replaceChild(ph, this);
+                    };
+                    tdUser.appendChild(img);
+                } else {
                     var ph = document.createElement('span');
                     ph.className = 'avatar-placeholder';
                     ph.textContent = '?';
-                    if (this.parentNode) this.parentNode.replaceChild(ph, this);
-                };
-                tdUser.appendChild(img);
-            } else {
-                var ph = document.createElement('span');
-                ph.className = 'avatar-placeholder';
-                ph.textContent = '?';
-                tdUser.appendChild(ph);
-            }
+                    tdUser.appendChild(ph);
+                }
 
-            var a = document.createElement('a');
-            a.href = u.profile;
-            a.target = '_blank';
-            a.rel = 'noopener';
-            a.textContent = u.username;
-            tdUser.appendChild(a);
+                // Strip the word "Verified" from the username if present
+                var cleanName = String(u.username || '')
+                    .replace(/\bVerified\b/gi, '')
+                    .replace(/\s+/g, ' ')
+                    .trim();
 
-            if (u.verified) {
-                var icon = document.createElement('img');
-                icon.className = 'verified-icon';
-                icon.src = 'verified.png';
-                icon.alt = 'Verified';
-                icon.title = 'Verified';
-                tdUser.appendChild(icon);
-            }
+                var a = document.createElement('a');
+                a.href = u.profile;
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.textContent = cleanName || u.username;
+                tdUser.appendChild(a);
 
-            tr.appendChild(tdUser);
+                // Insert verified.png icon if user is verified
+                if (u.verified) {
+                    var icon = document.createElement('img');
+                    icon.className = 'verified-icon';
+                    icon.src = 'verified.png';
+                    icon.alt = 'Verified';
+                    icon.title = 'Verified';
+                    tdUser.appendChild(icon);
+                }
 
-            var tdF = document.createElement('td');
-            tdF.textContent = Number(u.followers).toLocaleString();
-            tr.appendChild(tdF);
+                tr.appendChild(tdUser);
 
-            tbody.appendChild(tr);
-        });
-    }
+                var tdF = document.createElement('td');
+                tdF.textContent = Number(u.followers).toLocaleString();
+                tr.appendChild(tdF);
 
-    function download(text, filename, mime) {
-        var blob = new Blob([text], { type: mime });
-        var url = URL.createObjectURL(blob);
-        var a = document.createElement('a');
-        a.href = url;
-        a.download = filename;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-    }
-
-    if (jsonBtn) {
-        jsonBtn.addEventListener('click', function () {
-            if (!leaderboard.length) return;
-            download(JSON.stringify(leaderboard, null, 2), 'leaderboard.json', 'application/json');
-        });
-    }
-
-    if (csvBtn) {
-        csvBtn.addEventListener('click', function () {
-            if (!leaderboard.length) return;
-            function esc(s) { return '"' + String(s).replace(/"/g, '""') + '"'; }
-            var lines = ['rank,id,username,followers,avatar,profile'];
-            leaderboard.forEach(function (u) {
-                lines.push([
-                    u.rank, u.id, esc(u.username), u.followers,
-                    esc(u.avatar), esc(u.profile)
-                ].join(','));
+                tbody.appendChild(tr);
             });
-            download(lines.join('\n'), 'leaderboard.csv', 'text/csv');
-        });
-    }
-
-    async function load() {
-        if (isLoading) return;
-        isLoading = true;
-
-        loadBtn.disabled = true;
-        jsonBtn.disabled = true;
-        csvBtn.disabled = true;
-        errorEl.style.display = 'none';
-        emptyEl.style.display = 'none';
-        table.style.display = 'none';
-        statusEl.textContent = 'Loading leaderboard.json…';
-
-        try {
-            var res = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
-            if (!res.ok) throw new Error('HTTP ' + res.status);
-
-            var rawData = await res.json();
-
-            if (!rawData || !Array.isArray(rawData.leaderboard)) {
-                throw new Error('Invalid JSON format');
-            }
-
-            leaderboard = rawData.leaderboard;
-            render(leaderboard);
-
-            var generated = rawData.generatedAt
-                ? new Date(rawData.generatedAt).toLocaleString()
-                : 'unknown';
-
-            statusEl.textContent =
-                'Loaded ' + leaderboard.length + ' users' +
-                (rawData.failed ? ' (' + rawData.failed + ' skipped)' : '');
-
-            metaEl.textContent = 'Generated: ' + generated +
-                ' · Scanned: ' + (rawData.totalFetched || '?') + ' IDs';
-
-            if (rawData.failed && rawData.failed > 0) {
-                errorEl.textContent = rawData.failed +
-                    ' users were skipped (non-existent or no follower data).';
-                errorEl.style.display = 'block';
-            }
-
-            if (leaderboard.length > 0) {
-                jsonBtn.disabled = false;
-                csvBtn.disabled = false;
-            }
-        } catch (e) {
-            console.error(e);
-            statusEl.textContent = 'Error';
-            errorEl.textContent = 'Could not load leaderboard.json: ' + e.message;
-            errorEl.style.display = 'block';
-        } finally {
-            isLoading = false;
-            loadBtn.disabled = false;
         }
-    }
 
-    loadBtn.addEventListener('click', load);
-    window.addEventListener('DOMContentLoaded', load);
+        function download(text, filename, mime) {
+            var blob = new Blob([text], { type: mime });
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
 
-    window.TrellisLeaderboard = {
-        load: load,
-        getData: function () { return leaderboard; }
-    };
-})();
-</script>
+        if (jsonBtn) {
+            jsonBtn.addEventListener('click', function () {
+                if (!leaderboard.length) return;
+                download(JSON.stringify(leaderboard, null, 2), 'leaderboard.json', 'application/json');
+            });
+        }
+
+        if (csvBtn) {
+            csvBtn.addEventListener('click', function () {
+                if (!leaderboard.length) return;
+                function esc(s) { return '"' + String(s).replace(/"/g, '""') + '"'; }
+                var lines = ['rank,id,username,followers,avatar,profile'];
+                leaderboard.forEach(function (u) {
+                    lines.push([
+                        u.rank, u.id, esc(u.username), u.followers,
+                        esc(u.avatar), esc(u.profile)
+                    ].join(','));
+                });
+                download(lines.join('\n'), 'leaderboard.csv', 'text/csv');
+            });
+        }
+
+        async function load() {
+            if (isLoading) return;
+            isLoading = true;
+
+            loadBtn.disabled = true;
+            jsonBtn.disabled = true;
+            csvBtn.disabled = true;
+            errorEl.style.display = 'none';
+            emptyEl.style.display = 'none';
+            table.style.display = 'none';
+            statusEl.textContent = 'Loading leaderboard.json…';
+
+            try {
+                var res = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+
+                var rawData = await res.json();
+
+                if (!rawData || !Array.isArray(rawData.leaderboard)) {
+                    throw new Error('Invalid JSON format');
+                }
+
+                leaderboard = rawData.leaderboard;
+                render(leaderboard);
+
+                var generated = rawData.generatedAt
+                    ? new Date(rawData.generatedAt).toLocaleString()
+                    : 'unknown';
+
+                statusEl.textContent =
+                    'Loaded ' + leaderboard.length + ' users' +
+                    (rawData.failed ? ' (' + rawData.failed + ' skipped)' : '');
+
+                metaEl.textContent = 'Generated: ' + generated +
+                    ' · Scanned: ' + (rawData.totalFetched || '?') + ' IDs';
+
+                if (rawData.failed && rawData.failed > 0) {
+                    errorEl.textContent = rawData.failed +
+                        ' users were skipped (non-existent or no follower data).';
+                    errorEl.style.display = 'block';
+                }
+
+                if (leaderboard.length > 0) {
+                    jsonBtn.disabled = false;
+                    csvBtn.disabled = false;
+                }
+            } catch (e) {
+                console.error(e);
+                statusEl.textContent = 'Error';
+                errorEl.textContent = 'Could not load leaderboard.json: ' + e.message;
+                errorEl.style.display = 'block';
+            } finally {
+                isLoading = false;
+                loadBtn.disabled = false;
+            }
+        }
+
+        loadBtn.addEventListener('click', load);
+        window.addEventListener('DOMContentLoaded', load);
+
+        window.TrellisLeaderboard = {
+            load: load,
+            getData: function () { return leaderboard; }
+        };
+    })();
+    </script>
 </body>
 </html>
