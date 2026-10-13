@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-13T01:35:02.183Z",
+  "generatedAt": "2026-10-13T08:31:05.294Z",
   "totalFetched": 1000,
-  "failed": 719,
-  "count": 281,
+  "failed": 717,
+  "count": 283,
   "leaderboard": [
     {
       "rank": 1,
@@ -17,7 +17,7 @@
       "rank": 2,
       "id": 34,
       "username": "Xavier",
-      "followers": 92,
+      "followers": 93,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_34_aca7431b.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=34",
       "verified": true
@@ -26,7 +26,7 @@
       "rank": 3,
       "id": 2,
       "username": "ConsciousBone         Verified",
-      "followers": 90,
+      "followers": 91,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_2_18092d0a.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=2",
       "verified": true
@@ -81,7 +81,7 @@
       "id": 14,
       "username": "RedTech",
       "followers": 47,
-      "avatar": "http://trls.uk/dynamic/avatars/avatar_14_2946bed5.jpg",
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_14_8f19d9d4.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=14",
       "verified": true
     },
@@ -107,9 +107,18 @@
       "rank": 12,
       "id": 28,
       "username": "iiMorgan360",
-      "followers": 36,
+      "followers": 37,
       "avatar": "http://trls.uk/dynamic/avatars/28_1791474280.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=28",
+      "verified": true
+    },
+    {
+      "rank": 13,
+      "id": 52,
+      "username": "itzayne",
+      "followers": 30,
+      "avatar": "http://trls.uk/dynamic/avatars/52_1791409791.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=52",
       "verified": true
     },
     {
@@ -122,21 +131,12 @@
       "verified": true
     },
     {
-      "rank": 14,
+      "rank": 15,
       "id": 12,
       "username": "Alex         Verified",
       "followers": 29,
       "avatar": "http://trls.uk/dynamic/avatars/12_1791755864.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=12",
-      "verified": true
-    },
-    {
-      "rank": 14,
-      "id": 52,
-      "username": "itzayne",
-      "followers": 29,
-      "avatar": "http://trls.uk/dynamic/avatars/52_1791409791.jpg",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=52",
       "verified": true
     },
     {
@@ -1035,7 +1035,7 @@
       "id": 318,
       "username": "karamidelie         Verified",
       "followers": 3,
-      "avatar": "http://trls.uk/dynamic/avatars/avatar_318_971c74d0.jpg",
+      "avatar": "http://trls.uk/dynamic/avatars/318_1791871271.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=318",
       "verified": true
     },
@@ -2499,6 +2499,15 @@
     },
     {
       "rank": 237,
+      "id": 338,
+      "username": "MAGMGuirit",
+      "followers": 0,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=338",
+      "verified": false
+    },
+    {
+      "rank": 237,
       "id": 339,
       "username": "Harrnesh",
       "followers": 0,
@@ -2513,6 +2522,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/static/da.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=342",
+      "verified": true
+    },
+    {
+      "rank": 237,
+      "id": 343,
+      "username": "zuru",
+      "followers": 0,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=343",
       "verified": false
     },
     {
