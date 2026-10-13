@@ -1,8 +1,4 @@
-/**
- * generate.js
- * Fetches Trellis users 1–1000, skips "This user doesn't exist." pages,
- * ranks valid users by follower count, and writes leaderboard.json.
- */
+
 
 const fs = require('fs');
 const path = require('path');
@@ -17,7 +13,7 @@ const TIMEOUT_MS = 12000;
 const RETRIES = 2;
 const OUTPUT = path.join(__dirname, 'leaderboard.json');
 
-// ---------- Fetch helpers ----------
+
 function fetchTimeout(url, ms) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), ms);
@@ -43,7 +39,7 @@ async function fetchWithRetry(url) {
   throw lastErr;
 }
 
-// ---------- Parsing ----------
+
 function isMissingUser(html) {
   if (/This user doesn'?t exist\.?/i.test(html)) return true;
   if (/User\s+not\s+found/i.test(html)) return true;
@@ -121,7 +117,7 @@ function parseAvatar(html, id) {
     }
   }
 
-  // Fallback: any /dynamic/avatars/avatar_ image
+ 
   var imgRe = /<img[^>]+src=["']([^"']*\/dynamic\/avatars\/avatar_[^"']*)["']/gi;
   var m2;
   while ((m2 = imgRe.exec(html)) !== null) {
@@ -135,12 +131,13 @@ function parseAvatar(html, id) {
   return AVATAR_BASE + id + '.png';
 }
 
-// Detect the word "Verified" anywhere in the HTML
+
 function parseVerified(html) {
-  return /\bVerified\b/.test(html);
+  const match = html.match(/<span class="label label-success"><i class="icon-ok icon-white"><\/i>\s*Verified<\/span>/);
+  return match !== null;
 }
 
-// ---------- Fetch one user ----------
+
 async function fetchUser(id) {
   const url = BASE_URL + id;
   let res;
@@ -174,7 +171,7 @@ async function fetchUser(id) {
   };
 }
 
-// ---------- Fetch all ----------
+
 async function fetchAll() {
   const ids = [];
   for (let i = MIN_ID; i <= MAX_ID; i++) ids.push(i);
@@ -222,7 +219,6 @@ async function fetchAll() {
   return { results, failed, total };
 }
 
-// ---------- Main ----------
 (async () => {
   const start = Date.now();
   console.log(`Fetching users ${MIN_ID}–${MAX_ID}...`);
