@@ -133,7 +133,7 @@ function parseAvatar(html, id) {
 
 
 function parseVerified(html) {
-  const match = html.match(/<span class="label label-success"><i class="icon-ok icon-white"><\/i>\s*Verified<\/span>/);
+  const match = html.match(/<span class="label label-success"><i class="icon-ok icon-white"><\/i>\s* Verified<\/span>/);
   return match !== null;
 }
 
