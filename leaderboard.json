@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T00:34:53.738Z",
+  "generatedAt": "2026-10-14T05:28:27.595Z",
   "totalFetched": 1000,
-  "failed": 712,
-  "count": 288,
+  "failed": 711,
+  "count": 289,
   "leaderboard": [
     {
       "rank": 1,
@@ -2594,6 +2594,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/avatar_347_a5ee3ac4.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=347",
+      "verified": false
+    },
+    {
+      "rank": 237,
+      "id": 348,
+      "username": "buddyroo74",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/348_1791950280.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=348",
       "verified": false
     }
   ]
