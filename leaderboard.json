@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T10:32:52.385Z",
+  "generatedAt": "2026-10-14T15:32:38.689Z",
   "totalFetched": 1000,
-  "failed": 711,
-  "count": 289,
+  "failed": 710,
+  "count": 290,
   "leaderboard": [
     {
       "rank": 1,
@@ -143,7 +143,7 @@
       "rank": 16,
       "id": 5,
       "username": "Trellis         Verified",
-      "followers": 26,
+      "followers": 27,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/5_1782589840.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=5",
       "verified": true
@@ -276,6 +276,15 @@
     },
     {
       "rank": 31,
+      "id": 6,
+      "username": "TrellisTesting         Verified",
+      "followers": 12,
+      "avatar": "https://trellis.consciousb.one/dynamic/avatars/6_1782589691.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=6",
+      "verified": true
+    },
+    {
+      "rank": 31,
       "id": 10,
       "username": "alpine         Verified",
       "followers": 12,
@@ -329,16 +338,7 @@
       "verified": true
     },
     {
-      "rank": 37,
-      "id": 6,
-      "username": "TrellisTesting         Verified",
-      "followers": 11,
-      "avatar": "https://trellis.consciousb.one/dynamic/avatars/6_1782589691.jpg",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=6",
-      "verified": true
-    },
-    {
-      "rank": 37,
+      "rank": 38,
       "id": 13,
       "username": "avarice",
       "followers": 11,
@@ -954,7 +954,7 @@
       "id": 148,
       "username": "Nimbleshutter2",
       "followers": 3,
-      "avatar": "https://trellis.consciousb.one/dynamic/avatars/148_1787481386.jpg",
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_148_2a7b538a.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=148",
       "verified": false
     },
@@ -2550,6 +2550,15 @@
       "avatar": "http://trls.uk/dynamic/avatars/avatar_340_4c2b0728.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=340",
       "verified": false
+    },
+    {
+      "rank": 237,
+      "id": 341,
+      "username": "Cyberhadi",
+      "followers": 0,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=341",
+      "verified": true
     },
     {
       "rank": 237,
