@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T22:42:59.219Z",
+  "generatedAt": "2026-10-15T00:58:27.795Z",
   "totalFetched": 1000,
-  "failed": 710,
-  "count": 290,
+  "failed": 709,
+  "count": 291,
   "leaderboard": [
     {
       "rank": 1,
@@ -2612,6 +2612,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/348_1791950280.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=348",
+      "verified": false
+    },
+    {
+      "rank": 237,
+      "id": 349,
+      "username": "nullspooks",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/349_1792025284.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=349",
       "verified": false
     }
   ]
