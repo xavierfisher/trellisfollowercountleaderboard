@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T15:38:26.505Z",
+  "generatedAt": "2026-10-15T19:26:32.578Z",
   "totalFetched": 1000,
   "failed": 709,
   "count": 291,
@@ -35,7 +35,7 @@
       "rank": 4,
       "id": 3,
       "username": "Astro15         Verified",
-      "followers": 86,
+      "followers": 85,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/3_1787663057.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=3",
       "verified": true
