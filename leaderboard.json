@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-16T05:41:30.690Z",
+  "generatedAt": "2026-10-16T10:09:20.620Z",
   "totalFetched": 1000,
-  "failed": 710,
-  "count": 290,
+  "failed": 709,
+  "count": 291,
   "leaderboard": [
     {
       "rank": 1,
@@ -2226,6 +2226,15 @@
       "avatar": "http://trls.uk/dynamic/avatars/265_1790604715.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=265",
       "verified": true
+    },
+    {
+      "rank": 237,
+      "id": 266,
+      "username": "WindyTurk17",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_266_f537493e.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=266",
+      "verified": false
     },
     {
       "rank": 237,
