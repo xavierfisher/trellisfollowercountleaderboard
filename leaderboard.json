@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T00:15:01.945Z",
+  "generatedAt": "2026-10-17T04:40:54.186Z",
   "totalFetched": 1000,
   "failed": 709,
   "count": 291,
@@ -116,13 +116,13 @@
       "rank": 13,
       "id": 52,
       "username": "itzayne",
-      "followers": 30,
+      "followers": 31,
       "avatar": "http://trls.uk/dynamic/avatars/52_1791409791.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=52",
       "verified": true
     },
     {
-      "rank": 13,
+      "rank": 14,
       "id": 96,
       "username": "thomassanders         Verified",
       "followers": 30,
