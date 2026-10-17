@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-17T18:44:40.663Z",
+  "generatedAt": "2026-10-17T21:03:07.989Z",
   "totalFetched": 1000,
-  "failed": 704,
-  "count": 296,
+  "failed": 702,
+  "count": 298,
   "leaderboard": [
     {
       "rank": 1,
       "id": 47,
       "username": "zachking         Verified",
-      "followers": 114,
+      "followers": 116,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/8B7C4D1C43989321337627697152_1c8c3b66554.3.2_gFUQczJD5TTWOHv1D.29VSre6aYY4WISIjqqMNpL6lErU16rQVlQd3VwRhAiTzvd.jpg?versionId=VeRx1.1B.9PEDYXTT2dEJtnrNPn_lwvh",
       "profile": "https://trellis.consciousb.one/web/user.php?id=47",
       "verified": true
@@ -26,7 +26,7 @@
       "rank": 3,
       "id": 2,
       "username": "ConsciousBone         Verified",
-      "followers": 91,
+      "followers": 92,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_2_18092d0a.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=2",
       "verified": true
@@ -2667,6 +2667,24 @@
       "avatar": "http://trls.uk/dynamic/avatars/avatar_362_e0a7bc78.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=362",
       "verified": false
+    },
+    {
+      "rank": 238,
+      "id": 363,
+      "username": "astro",
+      "followers": 0,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=363",
+      "verified": false
+    },
+    {
+      "rank": 238,
+      "id": 366,
+      "username": "December",
+      "followers": 0,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=366",
+      "verified": true
     }
   ]
 }
