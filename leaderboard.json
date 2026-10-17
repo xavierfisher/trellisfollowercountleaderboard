@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-17T16:16:17.719Z",
+  "generatedAt": "2026-10-17T18:44:40.663Z",
   "totalFetched": 1000,
-  "failed": 706,
-  "count": 294,
+  "failed": 704,
+  "count": 296,
   "leaderboard": [
     {
       "rank": 1,
@@ -35,7 +35,7 @@
       "rank": 4,
       "id": 3,
       "username": "Astro15         Verified",
-      "followers": 86,
+      "followers": 87,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/3_1787663057.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=3",
       "verified": true
@@ -2637,9 +2637,9 @@
       "id": 350,
       "username": "wade",
       "followers": 0,
-      "avatar": "http://trls.uk/static/da.png",
+      "avatar": "http://trls.uk/dynamic/avatars/350_1792259066.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=350",
-      "verified": false
+      "verified": true
     },
     {
       "rank": 238,
@@ -2648,6 +2648,24 @@
       "followers": 0,
       "avatar": "http://trls.uk/static/da.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=351",
+      "verified": false
+    },
+    {
+      "rank": 238,
+      "id": 361,
+      "username": "techcat",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_361_62a50cfa.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=361",
+      "verified": false
+    },
+    {
+      "rank": 238,
+      "id": 362,
+      "username": "lampyt",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_362_e0a7bc78.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=362",
       "verified": false
     }
   ]
