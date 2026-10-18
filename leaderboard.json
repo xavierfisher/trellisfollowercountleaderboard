@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T19:37:28.050Z",
+  "generatedAt": "2026-10-18T21:55:21.502Z",
   "totalFetched": 1000,
   "failed": 693,
   "count": 307,
@@ -2745,7 +2745,7 @@
       "id": 365,
       "username": "antix",
       "followers": 0,
-      "avatar": "https://trellis.consciousb.one/\\s",
+      "avatar": "http://trls.uk/dynamic/avatars/365_1792357782.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=365",
       "verified": false
     },
