@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-18T14:25:36.705Z",
+  "generatedAt": "2026-10-18T17:29:54.086Z",
   "totalFetched": 1000,
-  "failed": 695,
-  "count": 305,
+  "failed": 694,
+  "count": 306,
   "leaderboard": [
     {
       "rank": 1,
       "id": 47,
       "username": "zachking         Verified",
-      "followers": 118,
+      "followers": 119,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/8B7C4D1C43989321337627697152_1c8c3b66554.3.2_gFUQczJD5TTWOHv1D.29VSre6aYY4WISIjqqMNpL6lErU16rQVlQd3VwRhAiTzvd.jpg?versionId=VeRx1.1B.9PEDYXTT2dEJtnrNPn_lwvh",
       "profile": "https://trellis.consciousb.one/web/user.php?id=47",
       "verified": true
@@ -555,6 +555,15 @@
     },
     {
       "rank": 54,
+      "id": 223,
+      "username": "StormAndFriends",
+      "followers": 6,
+      "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_223_c24378e8.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=223",
+      "verified": true
+    },
+    {
+      "rank": 54,
       "id": 282,
       "username": "Disciplebolt",
       "followers": 6,
@@ -563,7 +572,7 @@
       "verified": true
     },
     {
-      "rank": 63,
+      "rank": 64,
       "id": 58,
       "username": "Danielsdoodles",
       "followers": 5,
@@ -572,7 +581,7 @@
       "verified": true
     },
     {
-      "rank": 63,
+      "rank": 64,
       "id": 62,
       "username": "Fronk84",
       "followers": 5,
@@ -581,7 +590,7 @@
       "verified": true
     },
     {
-      "rank": 63,
+      "rank": 64,
       "id": 81,
       "username": "comy",
       "followers": 5,
@@ -590,7 +599,7 @@
       "verified": true
     },
     {
-      "rank": 63,
+      "rank": 64,
       "id": 114,
       "username": "hellopasta",
       "followers": 5,
@@ -599,7 +608,7 @@
       "verified": true
     },
     {
-      "rank": 63,
+      "rank": 64,
       "id": 117,
       "username": "easybutton",
       "followers": 5,
@@ -608,7 +617,7 @@
       "verified": true
     },
     {
-      "rank": 63,
+      "rank": 64,
       "id": 128,
       "username": "yakyakjack         Verified",
       "followers": 5,
@@ -617,7 +626,7 @@
       "verified": true
     },
     {
-      "rank": 63,
+      "rank": 64,
       "id": 214,
       "username": "Mavi",
       "followers": 5,
@@ -626,7 +635,7 @@
       "verified": true
     },
     {
-      "rank": 63,
+      "rank": 64,
       "id": 221,
       "username": "BradleyTime",
       "followers": 5,
@@ -635,16 +644,7 @@
       "verified": true
     },
     {
-      "rank": 63,
-      "id": 223,
-      "username": "StormAndFriends",
-      "followers": 5,
-      "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_223_c24378e8.jpg",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=223",
-      "verified": true
-    },
-    {
-      "rank": 63,
+      "rank": 64,
       "id": 300,
       "username": "fartwolf",
       "followers": 5,
@@ -2729,14 +2729,14 @@
       "followers": 0,
       "avatar": "http://trls.uk/static/da.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=355",
-      "verified": false
+      "verified": true
     },
     {
       "rank": 302,
       "id": 365,
       "username": "antix",
       "followers": 0,
-      "avatar": "http://trls.uk/dynamic/avatars/365_1792326630.jpg",
+      "avatar": "https://trellis.consciousb.one/\\s",
       "profile": "https://trellis.consciousb.one/web/user.php?id=365",
       "verified": false
     },
@@ -2747,6 +2747,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/static/da.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=369",
+      "verified": false
+    },
+    {
+      "rank": 302,
+      "id": 370,
+      "username": "Red_Apples_YT",
+      "followers": 0,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=370",
       "verified": false
     }
   ]
