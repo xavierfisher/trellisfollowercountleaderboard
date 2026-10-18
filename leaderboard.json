@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-18T01:06:36.802Z",
+  "generatedAt": "2026-10-18T05:57:32.937Z",
   "totalFetched": 1000,
-  "failed": 700,
-  "count": 300,
+  "failed": 698,
+  "count": 302,
   "leaderboard": [
     {
       "rank": 1,
@@ -1827,7 +1827,7 @@
       "id": 219,
       "username": "john",
       "followers": 1,
-      "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_219_fc797e32.jpg",
+      "avatar": "http://trls.uk/dynamic/avatars/219_1792289460.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=219",
       "verified": true
     },
@@ -2670,6 +2670,15 @@
     },
     {
       "rank": 238,
+      "id": 360,
+      "username": "LethargyDisunion",
+      "followers": 0,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=360",
+      "verified": false
+    },
+    {
+      "rank": 238,
       "id": 361,
       "username": "techcat",
       "followers": 0,
@@ -2703,6 +2712,15 @@
       "avatar": "http://trls.uk/static/da.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=366",
       "verified": true
+    },
+    {
+      "rank": 238,
+      "id": 367,
+      "username": "iphone4user1234",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/367_1792286703.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=367",
+      "verified": false
     }
   ]
 }
