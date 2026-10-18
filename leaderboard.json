@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-17T23:09:43.530Z",
+  "generatedAt": "2026-10-18T01:06:36.802Z",
   "totalFetched": 1000,
-  "failed": 701,
-  "count": 299,
+  "failed": 700,
+  "count": 300,
   "leaderboard": [
     {
       "rank": 1,
@@ -44,7 +44,7 @@
       "rank": 5,
       "id": 23,
       "username": "iOS5Xclusive",
-      "followers": 84,
+      "followers": 85,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/23_1782716450.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=23",
       "verified": true
@@ -203,16 +203,16 @@
       "verified": true
     },
     {
-      "rank": 23,
+      "rank": 21,
       "id": 25,
       "username": "kyTuhn0obfdi2763",
-      "followers": 16,
+      "followers": 17,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/25_1784492951.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=25",
       "verified": true
     },
     {
-      "rank": 23,
+      "rank": 24,
       "id": 108,
       "username": "MatthewHoang756",
       "followers": 16,
@@ -2648,6 +2648,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/static/da.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=351",
+      "verified": false
+    },
+    {
+      "rank": 238,
+      "id": 352,
+      "username": "efekaratas12435",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/ivy_avatar_352.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=352",
       "verified": false
     },
     {
