@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-18T17:29:54.086Z",
+  "generatedAt": "2026-10-18T19:37:28.050Z",
   "totalFetched": 1000,
-  "failed": 694,
-  "count": 306,
+  "failed": 693,
+  "count": 307,
   "leaderboard": [
     {
       "rank": 1,
@@ -17,7 +17,7 @@
       "rank": 2,
       "id": 34,
       "username": "Xavier",
-      "followers": 94,
+      "followers": 95,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_34_aca7431b.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=34",
       "verified": true
@@ -2730,6 +2730,15 @@
       "avatar": "http://trls.uk/static/da.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=355",
       "verified": true
+    },
+    {
+      "rank": 302,
+      "id": 357,
+      "username": "Mikuo",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/357_1792267548.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=357",
+      "verified": false
     },
     {
       "rank": 302,
