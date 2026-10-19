@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T04:45:57.955Z",
+  "generatedAt": "2026-10-19T10:38:30.097Z",
   "totalFetched": 1000,
   "failed": 693,
   "count": 307,
@@ -35,7 +35,7 @@
       "rank": 4,
       "id": 3,
       "username": "Astro15         Verified",
-      "followers": 88,
+      "followers": 89,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/3_1787663057.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=3",
       "verified": true
@@ -53,7 +53,7 @@
       "rank": 6,
       "id": 1,
       "username": "calvink19         Verified",
-      "followers": 83,
+      "followers": 82,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/1_1782614657.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=1",
       "verified": true
@@ -455,7 +455,16 @@
       "verified": true
     },
     {
-      "rank": 51,
+      "rank": 47,
+      "id": 185,
+      "username": "canadawxr",
+      "followers": 8,
+      "avatar": "https://trellis.consciousb.one/dynamic/avatars/185_1788408473.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=185",
+      "verified": true
+    },
+    {
+      "rank": 52,
       "id": 22,
       "username": "⭐️Pancake⭐️",
       "followers": 7,
@@ -464,21 +473,12 @@
       "verified": true
     },
     {
-      "rank": 51,
+      "rank": 52,
       "id": 51,
       "username": "stick",
       "followers": 7,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_51_83128e30.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=51",
-      "verified": true
-    },
-    {
-      "rank": 51,
-      "id": 185,
-      "username": "canadawxr",
-      "followers": 7,
-      "avatar": "https://trellis.consciousb.one/dynamic/avatars/185_1788408473.jpg",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=185",
       "verified": true
     },
     {
@@ -2691,7 +2691,7 @@
       "id": 363,
       "username": "astro         Verified",
       "followers": 1,
-      "avatar": "http://trls.uk/static/da.png",
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_363_40358a08.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=363",
       "verified": true
     },
@@ -2763,7 +2763,7 @@
       "id": 370,
       "username": "Red_Apples_YT",
       "followers": 0,
-      "avatar": "http://trls.uk/static/da.png",
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_370_e355fbc5.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=370",
       "verified": false
     }
