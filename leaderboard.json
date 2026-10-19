@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:38:30.097Z",
+  "generatedAt": "2026-10-19T17:11:12.780Z",
   "totalFetched": 1000,
   "failed": 693,
   "count": 307,
@@ -17,7 +17,7 @@
       "rank": 2,
       "id": 34,
       "username": "Xavier",
-      "followers": 95,
+      "followers": 96,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_34_aca7431b.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=34",
       "verified": true
@@ -62,7 +62,7 @@
       "rank": 7,
       "id": 38,
       "username": "cheese         Verified",
-      "followers": 71,
+      "followers": 72,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_38_6fc0a347.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=38",
       "verified": true
