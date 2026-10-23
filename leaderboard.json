@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T19:02:11.257Z",
+  "generatedAt": "2026-10-23T22:14:08.952Z",
   "totalFetched": 1000,
   "failed": 690,
   "count": 310,
@@ -17,7 +17,7 @@
       "rank": 2,
       "id": 34,
       "username": "Xavier",
-      "followers": 96,
+      "followers": 97,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_34_aca7431b.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=34",
       "verified": true
@@ -324,7 +324,7 @@
       "id": 20,
       "username": "jaden2swagg",
       "followers": 12,
-      "avatar": "https://trellis.consciousb.one/dynamic/avatars/ivy_avatar_20.jpg",
+      "avatar": "http://trls.uk/dynamic/avatars/20_1792790583.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=20",
       "verified": true
     },
@@ -2709,7 +2709,7 @@
       "id": 366,
       "username": "December",
       "followers": 1,
-      "avatar": "http://trls.uk/static/da.png",
+      "avatar": "http://trls.uk/dynamic/avatars/366_1792782362.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=366",
       "verified": true
     },
