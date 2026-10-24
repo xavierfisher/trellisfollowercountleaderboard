@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T13:54:29.974Z",
+  "generatedAt": "2026-10-24T17:18:21.722Z",
   "totalFetched": 1000,
   "failed": 689,
   "count": 311,
@@ -8,7 +8,7 @@
       "rank": 1,
       "id": 47,
       "username": "zachking         Verified",
-      "followers": 122,
+      "followers": 123,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/8B7C4D1C43989321337627697152_1c8c3b66554.3.2_gFUQczJD5TTWOHv1D.29VSre6aYY4WISIjqqMNpL6lErU16rQVlQd3VwRhAiTzvd.jpg?versionId=VeRx1.1B.9PEDYXTT2dEJtnrNPn_lwvh",
       "profile": "https://trellis.consciousb.one/web/user.php?id=47",
       "verified": true
@@ -44,7 +44,7 @@
       "rank": 5,
       "id": 23,
       "username": "iOS5Xclusive",
-      "followers": 87,
+      "followers": 88,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/23_1782716450.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=23",
       "verified": true
@@ -62,7 +62,7 @@
       "rank": 7,
       "id": 38,
       "username": "cheese         Verified",
-      "followers": 74,
+      "followers": 75,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_38_6fc0a347.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=38",
       "verified": true
@@ -80,7 +80,7 @@
       "rank": 9,
       "id": 94,
       "username": "kingbach         Verified",
-      "followers": 49,
+      "followers": 50,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/5E743D1BB41073728639507505152_1e6a8742399.4.4.jpg?versionId=JIjnvXTkbWpjvk7glYZIXDqt187couHr",
       "profile": "https://trellis.consciousb.one/web/user.php?id=94",
       "verified": true
@@ -107,7 +107,7 @@
       "rank": 12,
       "id": 28,
       "username": "iiMorgan360",
-      "followers": 39,
+      "followers": 40,
       "avatar": "http://trls.uk/dynamic/avatars/avatar_28_0a40bae1.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=28",
       "verified": true
@@ -170,7 +170,7 @@
       "rank": 19,
       "id": 15,
       "username": "Regnbuebork",
-      "followers": 22,
+      "followers": 23,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/15_1782681781.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=15",
       "verified": true
@@ -2522,7 +2522,7 @@
       "followers": 1,
       "avatar": "http://trls.uk/dynamic/avatars/330_1791745539.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=330",
-      "verified": false
+      "verified": true
     },
     {
       "rank": 179,
