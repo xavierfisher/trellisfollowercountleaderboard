@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-25T13:56:43.740Z",
+  "generatedAt": "2026-10-25T17:34:39.354Z",
   "totalFetched": 1000,
-  "failed": 686,
-  "count": 314,
+  "failed": 684,
+  "count": 316,
   "leaderboard": [
     {
       "rank": 1,
@@ -26,7 +26,7 @@
       "rank": 3,
       "id": 2,
       "username": "ConsciousBone         Verified",
-      "followers": 94,
+      "followers": 95,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_2_18092d0a.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=2",
       "verified": true
@@ -44,7 +44,7 @@
       "rank": 5,
       "id": 23,
       "username": "iOS5Xclusive",
-      "followers": 88,
+      "followers": 89,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/23_1782716450.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=23",
       "verified": true
@@ -1815,6 +1815,15 @@
     },
     {
       "rank": 182,
+      "id": 152,
+      "username": "jadei",
+      "followers": 1,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=152",
+      "verified": false
+    },
+    {
+      "rank": 182,
       "id": 153,
       "username": "MasterViper80",
       "followers": 1,
@@ -2786,16 +2795,25 @@
       "verified": false
     },
     {
-      "rank": 310,
-      "id": 152,
-      "username": "jadei",
-      "followers": 0,
+      "rank": 182,
+      "id": 376,
+      "username": "ShahXAnime_333",
+      "followers": 1,
       "avatar": "http://trls.uk/static/da.png",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=152",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=376",
       "verified": false
     },
     {
-      "rank": 310,
+      "rank": 182,
+      "id": 380,
+      "username": "abdo509",
+      "followers": 1,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=380",
+      "verified": true
+    },
+    {
+      "rank": 313,
       "id": 324,
       "username": "Aman42",
       "followers": 0,
@@ -2804,31 +2822,31 @@
       "verified": true
     },
     {
-      "rank": 310,
-      "id": 376,
-      "username": "ShahXAnime_333",
+      "rank": 313,
+      "id": 371,
+      "username": "broski",
       "followers": 0,
-      "avatar": "http://trls.uk/static/da.png",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=376",
-      "verified": false
-    },
-    {
-      "rank": 310,
-      "id": 380,
-      "username": "abdo509",
-      "followers": 0,
-      "avatar": "http://trls.uk/static/da.png",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=380",
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_371_3f45c5eb.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=371",
       "verified": true
     },
     {
-      "rank": 310,
+      "rank": 313,
       "id": 381,
       "username": "azz         Verified",
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/381_1792927038.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=381",
       "verified": true
+    },
+    {
+      "rank": 313,
+      "id": 382,
+      "username": "jabawoki",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_382_3bb77093.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=382",
+      "verified": false
     }
   ]
 }
