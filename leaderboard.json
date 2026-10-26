@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T00:40:25.920Z",
+  "generatedAt": "2026-10-26T05:24:09.830Z",
   "totalFetched": 1000,
   "failed": 684,
   "count": 316,
@@ -35,7 +35,7 @@
       "rank": 4,
       "id": 3,
       "username": "Astro15         Verified",
-      "followers": 90,
+      "followers": 91,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/3_1787663057.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=3",
       "verified": true
@@ -108,7 +108,7 @@
       "id": 28,
       "username": "iiMorgan360",
       "followers": 40,
-      "avatar": "http://trls.uk/dynamic/avatars/28_1792932090.jpg",
+      "avatar": "http://trls.uk/dynamic/avatars/28_1792977285.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=28",
       "verified": true
     },
@@ -2846,7 +2846,7 @@
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/avatar_382_3bb77093.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=382",
-      "verified": false
+      "verified": true
     }
   ]
 }
