@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T13:34:35.255Z",
+  "generatedAt": "2026-10-29T19:15:40.113Z",
   "totalFetched": 1000,
   "failed": 682,
   "count": 318,
@@ -17,7 +17,7 @@
       "rank": 2,
       "id": 34,
       "username": "Xavier",
-      "followers": 101,
+      "followers": 102,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_34_aca7431b.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=34",
       "verified": true
