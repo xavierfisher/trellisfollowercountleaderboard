@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-29T00:16:22.154Z",
+  "generatedAt": "2026-10-29T06:18:25.786Z",
   "totalFetched": 1000,
-  "failed": 683,
-  "count": 317,
+  "failed": 682,
+  "count": 318,
   "leaderboard": [
     {
       "rank": 1,
@@ -2856,6 +2856,15 @@
       "avatar": "http://trls.uk/dynamic/avatars/avatar_382_3bb77093.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=382",
       "verified": true
+    },
+    {
+      "rank": 314,
+      "id": 383,
+      "username": "TheTallyHallFan",
+      "followers": 0,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=383",
+      "verified": false
     }
   ]
 }
