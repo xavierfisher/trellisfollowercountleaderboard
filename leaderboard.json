@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-29T19:15:40.113Z",
+  "generatedAt": "2026-10-29T23:30:31.657Z",
   "totalFetched": 1000,
-  "failed": 682,
-  "count": 318,
+  "failed": 681,
+  "count": 319,
   "leaderboard": [
     {
       "rank": 1,
@@ -158,10 +158,10 @@
       "verified": true
     },
     {
-      "rank": 18,
+      "rank": 17,
       "id": 119,
       "username": "sz0ty1",
-      "followers": 24,
+      "followers": 25,
       "avatar": "http://trls.uk/dynamic/avatars/119_1792512538.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=119",
       "verified": true
@@ -808,9 +808,9 @@
     {
       "rank": 77,
       "id": 174,
-      "username": "★summer_0★",
+      "username": "olderajustdance",
       "followers": 4,
-      "avatar": "https://trellis.consciousb.one/dynamic/avatars/174_1787479773.jpg",
+      "avatar": "http://trls.uk/dynamic/avatars/174_1793310119.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=174",
       "verified": true
     },
@@ -2864,6 +2864,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/static/da.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=383",
+      "verified": false
+    },
+    {
+      "rank": 314,
+      "id": 384,
+      "username": "tote",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_384_fdcdd11f.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=384",
       "verified": false
     }
   ]
