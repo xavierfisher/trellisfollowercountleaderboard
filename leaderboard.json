@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-31T17:54:50.912Z",
+  "generatedAt": "2026-10-31T21:17:21.368Z",
   "totalFetched": 1000,
-  "failed": 680,
-  "count": 320,
+  "failed": 679,
+  "count": 321,
   "leaderboard": [
     {
       "rank": 1,
@@ -44,7 +44,7 @@
       "rank": 5,
       "id": 23,
       "username": "iOS5Xclusive",
-      "followers": 89,
+      "followers": 90,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/23_1782716450.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=23",
       "verified": true
@@ -2882,6 +2882,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/avatar_388_b97321b3.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=388",
+      "verified": false
+    },
+    {
+      "rank": 315,
+      "id": 389,
+      "username": "Real_D4Vix",
+      "followers": 0,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=389",
       "verified": false
     }
   ]
