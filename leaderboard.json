@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-31T13:29:41.877Z",
+  "generatedAt": "2026-10-31T17:54:50.912Z",
   "totalFetched": 1000,
-  "failed": 681,
-  "count": 319,
+  "failed": 680,
+  "count": 320,
   "leaderboard": [
     {
       "rank": 1,
@@ -2873,6 +2873,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/avatar_384_fdcdd11f.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=384",
+      "verified": false
+    },
+    {
+      "rank": 315,
+      "id": 388,
+      "username": "Tima",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_388_b97321b3.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=388",
       "verified": false
     }
   ]
