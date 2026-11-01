@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-01T00:20:05.670Z",
+  "generatedAt": "2026-11-01T06:40:50.734Z",
   "totalFetched": 1000,
-  "failed": 677,
-  "count": 323,
+  "failed": 675,
+  "count": 325,
   "leaderboard": [
     {
       "rank": 1,
@@ -35,7 +35,7 @@
       "rank": 4,
       "id": 3,
       "username": "Astro15         Verified",
-      "followers": 91,
+      "followers": 92,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/3_1787663057.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=3",
       "verified": true
@@ -808,7 +808,7 @@
     {
       "rank": 77,
       "id": 174,
-      "username": "olderajustdance",
+      "username": "Justdancegame",
       "followers": 4,
       "avatar": "http://trls.uk/dynamic/avatars/174_1793310119.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=174",
@@ -2823,6 +2823,15 @@
     },
     {
       "rank": 184,
+      "id": 378,
+      "username": "Wonderspeedz",
+      "followers": 1,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=378",
+      "verified": false
+    },
+    {
+      "rank": 184,
       "id": 381,
       "username": "azz         Verified",
       "followers": 1,
@@ -2831,85 +2840,94 @@
       "verified": true
     },
     {
-      "rank": 315,
+      "rank": 184,
+      "id": 382,
+      "username": "jabawoki",
+      "followers": 1,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_382_3bb77093.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=382",
+      "verified": true
+    },
+    {
+      "rank": 184,
+      "id": 383,
+      "username": "TheTallyHallFan",
+      "followers": 1,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=383",
+      "verified": false
+    },
+    {
+      "rank": 184,
+      "id": 384,
+      "username": "tote",
+      "followers": 1,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_384_fdcdd11f.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=384",
+      "verified": false
+    },
+    {
+      "rank": 184,
+      "id": 386,
+      "username": "Kcxiree",
+      "followers": 1,
+      "avatar": "http://trls.uk/dynamic/avatars/386_1793484701.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=386",
+      "verified": false
+    },
+    {
+      "rank": 184,
+      "id": 387,
+      "username": "Abodi67",
+      "followers": 1,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=387",
+      "verified": true
+    },
+    {
+      "rank": 184,
+      "id": 388,
+      "username": "Tima",
+      "followers": 1,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_388_b97321b3.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=388",
+      "verified": false
+    },
+    {
+      "rank": 184,
+      "id": 389,
+      "username": "Real_D4Vix",
+      "followers": 1,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=389",
+      "verified": true
+    },
+    {
+      "rank": 184,
+      "id": 391,
+      "username": "echrinox",
+      "followers": 1,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=391",
+      "verified": false
+    },
+    {
+      "rank": 184,
+      "id": 392,
+      "username": "Adaap",
+      "followers": 1,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=392",
+      "verified": false
+    },
+    {
+      "rank": 325,
       "id": 324,
       "username": "Aman42",
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/324_1791628268.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=324",
       "verified": true
-    },
-    {
-      "rank": 315,
-      "id": 378,
-      "username": "Wonderspeedz",
-      "followers": 0,
-      "avatar": "http://trls.uk/static/da.png",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=378",
-      "verified": false
-    },
-    {
-      "rank": 315,
-      "id": 382,
-      "username": "jabawoki",
-      "followers": 0,
-      "avatar": "http://trls.uk/dynamic/avatars/avatar_382_3bb77093.png",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=382",
-      "verified": true
-    },
-    {
-      "rank": 315,
-      "id": 383,
-      "username": "TheTallyHallFan",
-      "followers": 0,
-      "avatar": "http://trls.uk/static/da.png",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=383",
-      "verified": false
-    },
-    {
-      "rank": 315,
-      "id": 384,
-      "username": "tote",
-      "followers": 0,
-      "avatar": "http://trls.uk/dynamic/avatars/avatar_384_fdcdd11f.jpg",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=384",
-      "verified": false
-    },
-    {
-      "rank": 315,
-      "id": 386,
-      "username": "Kcxiree",
-      "followers": 0,
-      "avatar": "http://trls.uk/dynamic/avatars/386_1793484701.jpg",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=386",
-      "verified": false
-    },
-    {
-      "rank": 315,
-      "id": 388,
-      "username": "Tima",
-      "followers": 0,
-      "avatar": "http://trls.uk/dynamic/avatars/avatar_388_b97321b3.png",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=388",
-      "verified": false
-    },
-    {
-      "rank": 315,
-      "id": 389,
-      "username": "Real_D4Vix",
-      "followers": 0,
-      "avatar": "http://trls.uk/static/da.png",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=389",
-      "verified": true
-    },
-    {
-      "rank": 315,
-      "id": 391,
-      "username": "echrinox",
-      "followers": 0,
-      "avatar": "http://trls.uk/static/da.png",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=391",
-      "verified": false
     }
   ]
 }
