@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-04T02:37:44.470Z",
+  "generatedAt": "2026-11-04T09:55:03.061Z",
   "totalFetched": 1000,
-  "failed": 672,
-  "count": 328,
+  "failed": 671,
+  "count": 329,
   "leaderboard": [
     {
       "rank": 1,
       "id": 47,
       "username": "zachking         Verified",
-      "followers": 127,
+      "followers": 128,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/8B7C4D1C43989321337627697152_1c8c3b66554.3.2_gFUQczJD5TTWOHv1D.29VSre6aYY4WISIjqqMNpL6lErU16rQVlQd3VwRhAiTzvd.jpg?versionId=VeRx1.1B.9PEDYXTT2dEJtnrNPn_lwvh",
       "profile": "https://trellis.consciousb.one/web/user.php?id=47",
       "verified": true
@@ -71,7 +71,7 @@
       "rank": 8,
       "id": 8,
       "username": "Preloading         Verified",
-      "followers": 70,
+      "followers": 71,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_8_2cbf12dc.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=8",
       "verified": true
@@ -266,7 +266,16 @@
       "verified": true
     },
     {
-      "rank": 30,
+      "rank": 27,
+      "id": 124,
+      "username": "daz_black         Verified",
+      "followers": 14,
+      "avatar": "http://vines.s3.amazonaws.com/r/avatars/CC6BBCAEC51267493102659698688_45a1c6c4ff7.1.1.jpg?versionId=a93VNuL_pvUyBJs0ndVtE0lC7h6GHJ76",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=124",
+      "verified": true
+    },
+    {
+      "rank": 31,
       "id": 40,
       "username": "Stat         Verified",
       "followers": 13,
@@ -275,7 +284,7 @@
       "verified": true
     },
     {
-      "rank": 30,
+      "rank": 31,
       "id": 49,
       "username": "romanbellic",
       "followers": 13,
@@ -284,21 +293,12 @@
       "verified": true
     },
     {
-      "rank": 30,
+      "rank": 31,
       "id": 66,
       "username": "LOLguy333",
       "followers": 13,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/66_1783626382.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=66",
-      "verified": true
-    },
-    {
-      "rank": 30,
-      "id": 124,
-      "username": "daz_black         Verified",
-      "followers": 13,
-      "avatar": "http://vines.s3.amazonaws.com/r/avatars/CC6BBCAEC51267493102659698688_45a1c6c4ff7.1.1.jpg?versionId=a93VNuL_pvUyBJs0ndVtE0lC7h6GHJ76",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=124",
       "verified": true
     },
     {
@@ -2954,6 +2954,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/324_1791628268.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=324",
+      "verified": true
+    },
+    {
+      "rank": 328,
+      "id": 395,
+      "username": "ilovecats1265",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_395_2b4eecc8.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=395",
       "verified": true
     }
   ]
