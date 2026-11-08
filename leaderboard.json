@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-07T22:20:01.174Z",
+  "generatedAt": "2026-11-08T01:44:12.499Z",
   "totalFetched": 1000,
-  "failed": 662,
-  "count": 338,
+  "failed": 661,
+  "count": 339,
   "leaderboard": [
     {
       "rank": 1,
@@ -134,7 +134,7 @@
       "rank": 15,
       "id": 12,
       "username": "AgentA         Verified",
-      "followers": 29,
+      "followers": 30,
       "avatar": "http://trls.uk/dynamic/avatars/avatar_12_874abfa1.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=12",
       "verified": true
@@ -2958,6 +2958,15 @@
     },
     {
       "rank": 189,
+      "id": 397,
+      "username": "D4M14N",
+      "followers": 1,
+      "avatar": "http://trls.uk/dynamic/avatars/397_1794088122.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=397",
+      "verified": false
+    },
+    {
+      "rank": 189,
       "id": 398,
       "username": "Zephyr",
       "followers": 1,
@@ -3012,6 +3021,24 @@
     },
     {
       "rank": 189,
+      "id": 406,
+      "username": "Zion",
+      "followers": 1,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=406",
+      "verified": false
+    },
+    {
+      "rank": 189,
+      "id": 407,
+      "username": "Datboi",
+      "followers": 1,
+      "avatar": "http://trls.uk/dynamic/avatars/407_1794095468.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=407",
+      "verified": false
+    },
+    {
+      "rank": 189,
       "id": 408,
       "username": "lubkolednik",
       "followers": 1,
@@ -3020,31 +3047,13 @@
       "verified": false
     },
     {
-      "rank": 336,
+      "rank": 339,
       "id": 324,
       "username": "Aman42",
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/324_1791628268.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=324",
       "verified": true
-    },
-    {
-      "rank": 336,
-      "id": 397,
-      "username": "D4M14N",
-      "followers": 0,
-      "avatar": "http://trls.uk/dynamic/avatars/397_1794088122.jpg",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=397",
-      "verified": false
-    },
-    {
-      "rank": 336,
-      "id": 406,
-      "username": "Zion",
-      "followers": 0,
-      "avatar": "http://trls.uk/static/da.png",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=406",
-      "verified": false
     }
   ]
 }
