@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-08T11:29:12.793Z",
+  "generatedAt": "2026-11-08T17:12:40.164Z",
   "totalFetched": 1000,
-  "failed": 660,
-  "count": 340,
+  "failed": 659,
+  "count": 341,
   "leaderboard": [
     {
       "rank": 1,
       "id": 47,
       "username": "zachking         Verified",
-      "followers": 131,
+      "followers": 133,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/8B7C4D1C43989321337627697152_1c8c3b66554.3.2_gFUQczJD5TTWOHv1D.29VSre6aYY4WISIjqqMNpL6lErU16rQVlQd3VwRhAiTzvd.jpg?versionId=VeRx1.1B.9PEDYXTT2dEJtnrNPn_lwvh",
       "profile": "https://trellis.consciousb.one/web/user.php?id=47",
       "verified": true
@@ -17,7 +17,7 @@
       "rank": 2,
       "id": 34,
       "username": "Xavier",
-      "followers": 108,
+      "followers": 109,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_34_aca7431b.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=34",
       "verified": true
@@ -26,7 +26,7 @@
       "rank": 3,
       "id": 2,
       "username": "ConsciousBone         Verified",
-      "followers": 97,
+      "followers": 98,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_2_18092d0a.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=2",
       "verified": true
@@ -35,7 +35,7 @@
       "rank": 4,
       "id": 3,
       "username": "Astro15         Verified",
-      "followers": 94,
+      "followers": 95,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/3_1787663057.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=3",
       "verified": true
@@ -53,7 +53,7 @@
       "rank": 6,
       "id": 1,
       "username": "calvink19         Verified",
-      "followers": 85,
+      "followers": 86,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/1_1782614657.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=1",
       "verified": true
@@ -62,7 +62,7 @@
       "rank": 7,
       "id": 38,
       "username": "cheese         Verified",
-      "followers": 78,
+      "followers": 79,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_38_6fc0a347.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=38",
       "verified": true
@@ -71,7 +71,7 @@
       "rank": 8,
       "id": 8,
       "username": "Preloading         Verified",
-      "followers": 71,
+      "followers": 72,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_8_2cbf12dc.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=8",
       "verified": true
@@ -80,7 +80,7 @@
       "rank": 9,
       "id": 94,
       "username": "kingbach         Verified",
-      "followers": 51,
+      "followers": 53,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/5E743D1BB41073728639507505152_1e6a8742399.4.4.jpg?versionId=JIjnvXTkbWpjvk7glYZIXDqt187couHr",
       "profile": "https://trellis.consciousb.one/web/user.php?id=94",
       "verified": true
@@ -107,7 +107,7 @@
       "rank": 12,
       "id": 28,
       "username": "iiMorgan360",
-      "followers": 42,
+      "followers": 43,
       "avatar": "http://trls.uk/dynamic/avatars/28_1794016256.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=28",
       "verified": true
@@ -3044,7 +3044,7 @@
       "followers": 1,
       "avatar": "http://trls.uk/dynamic/avatars/407_1794095468.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=407",
-      "verified": false
+      "verified": true
     },
     {
       "rank": 189,
@@ -3062,6 +3062,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/324_1791628268.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=324",
+      "verified": true
+    },
+    {
+      "rank": 340,
+      "id": 394,
+      "username": "v4lentines",
+      "followers": 0,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=394",
       "verified": true
     }
   ]
