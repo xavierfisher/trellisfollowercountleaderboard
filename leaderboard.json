@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-08T01:44:12.499Z",
+  "generatedAt": "2026-11-08T04:32:02.951Z",
   "totalFetched": 1000,
-  "failed": 661,
-  "count": 339,
+  "failed": 660,
+  "count": 340,
   "leaderboard": [
     {
       "rank": 1,
@@ -581,7 +581,16 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 55,
+      "id": 390,
+      "username": "same_PR0JECT",
+      "followers": 6,
+      "avatar": "http://trls.uk/dynamic/avatars/ivy_avatar_390.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=390",
+      "verified": true
+    },
+    {
+      "rank": 66,
       "id": 58,
       "username": "Danielsdoodles",
       "followers": 5,
@@ -590,7 +599,7 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 62,
       "username": "Fronk84",
       "followers": 5,
@@ -599,7 +608,7 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 76,
       "username": "Kpbrody",
       "followers": 5,
@@ -608,7 +617,7 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 81,
       "username": "comy",
       "followers": 5,
@@ -617,7 +626,7 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 113,
       "username": "Machinerage2601",
       "followers": 5,
@@ -626,7 +635,7 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 114,
       "username": "hellopasta",
       "followers": 5,
@@ -635,7 +644,7 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 117,
       "username": "easybutton",
       "followers": 5,
@@ -644,7 +653,7 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 128,
       "username": "yakyakjack         Verified",
       "followers": 5,
@@ -653,7 +662,7 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 148,
       "username": "Nimbleshutter2",
       "followers": 5,
@@ -662,7 +671,7 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 174,
       "username": "Justdancegame",
       "followers": 5,
@@ -671,7 +680,7 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 214,
       "username": "Mavi",
       "followers": 5,
@@ -680,7 +689,7 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 256,
       "username": "xcx",
       "followers": 5,
@@ -689,7 +698,7 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 300,
       "username": "fartwolf",
       "followers": 5,
@@ -698,21 +707,12 @@
       "verified": true
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": 308,
       "username": "Caesarbeazer",
       "followers": 5,
       "avatar": "http://trls.uk/dynamic/avatars/avatar_308_c281c6c3.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=308",
-      "verified": true
-    },
-    {
-      "rank": 65,
-      "id": 390,
-      "username": "same_PR0JECT",
-      "followers": 5,
-      "avatar": "http://trls.uk/dynamic/avatars/ivy_avatar_390.jpg",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=390",
       "verified": true
     },
     {
@@ -3012,6 +3012,15 @@
     },
     {
       "rank": 189,
+      "id": 404,
+      "username": "ElisaGrace22",
+      "followers": 1,
+      "avatar": "http://trls.uk/dynamic/avatars/404_1794025082.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=404",
+      "verified": true
+    },
+    {
+      "rank": 189,
       "id": 405,
       "username": "sinister64",
       "followers": 1,
@@ -3047,7 +3056,7 @@
       "verified": false
     },
     {
-      "rank": 339,
+      "rank": 340,
       "id": 324,
       "username": "Aman42",
       "followers": 0,
