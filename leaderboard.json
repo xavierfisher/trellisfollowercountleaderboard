@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-09T00:54:16.583Z",
+  "generatedAt": "2026-11-09T07:28:30.062Z",
   "totalFetched": 1000,
-  "failed": 659,
-  "count": 341,
+  "failed": 658,
+  "count": 342,
   "leaderboard": [
     {
       "rank": 1,
@@ -879,6 +879,15 @@
     },
     {
       "rank": 80,
+      "id": 272,
+      "username": "Asan",
+      "followers": 4,
+      "avatar": "http://trls.uk/dynamic/avatars/272_1791348666.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=272",
+      "verified": true
+    },
+    {
+      "rank": 80,
       "id": 286,
       "username": "Dex",
       "followers": 4,
@@ -914,7 +923,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 24,
       "username": "Lex",
       "followers": 3,
@@ -923,7 +932,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 30,
       "username": "oza",
       "followers": 3,
@@ -932,7 +941,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 31,
       "username": "Marky",
       "followers": 3,
@@ -941,7 +950,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 33,
       "username": "aguiaescaldante",
       "followers": 3,
@@ -950,7 +959,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 41,
       "username": "Fridge",
       "followers": 3,
@@ -959,7 +968,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 50,
       "username": "miradiematuba6",
       "followers": 3,
@@ -968,7 +977,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 74,
       "username": "UnitederYT",
       "followers": 3,
@@ -977,7 +986,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 85,
       "username": "BrxzyGMD",
       "followers": 3,
@@ -986,7 +995,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 95,
       "username": "thegabbieshow         Verified",
       "followers": 3,
@@ -995,7 +1004,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 97,
       "username": "drewisgooden         Verified",
       "followers": 3,
@@ -1004,7 +1013,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 98,
       "username": "iOS6",
       "followers": 3,
@@ -1013,7 +1022,7 @@
       "verified": false
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 103,
       "username": "ItsRaiden",
       "followers": 3,
@@ -1022,7 +1031,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 125,
       "username": "EmmaTheNerd         Verified",
       "followers": 3,
@@ -1031,7 +1040,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 129,
       "username": "toro",
       "followers": 3,
@@ -1040,7 +1049,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 146,
       "username": "khoi",
       "followers": 3,
@@ -1049,7 +1058,7 @@
       "verified": false
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 182,
       "username": "tinyliquid",
       "followers": 3,
@@ -1058,7 +1067,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 218,
       "username": "leothesmart",
       "followers": 3,
@@ -1067,7 +1076,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 228,
       "username": "skyl3rzx",
       "followers": 3,
@@ -1076,7 +1085,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 231,
       "username": "hardcorexp",
       "followers": 3,
@@ -1085,7 +1094,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 238,
       "username": "ollie",
       "followers": 3,
@@ -1094,7 +1103,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 243,
       "username": "TheSillyWoofieElie",
       "followers": 3,
@@ -1103,7 +1112,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 252,
       "username": "MiguelKenjiLOL68",
       "followers": 3,
@@ -1112,7 +1121,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 257,
       "username": "Asik237",
       "followers": 3,
@@ -1121,7 +1130,7 @@
       "verified": false
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 259,
       "username": "lively",
       "followers": 3,
@@ -1130,16 +1139,7 @@
       "verified": true
     },
     {
-      "rank": 102,
-      "id": 272,
-      "username": "Asan",
-      "followers": 3,
-      "avatar": "http://trls.uk/dynamic/avatars/272_1791348666.jpg",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=272",
-      "verified": true
-    },
-    {
-      "rank": 102,
+      "rank": 103,
       "id": 280,
       "username": "moyadfad",
       "followers": 3,
@@ -1148,7 +1148,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 294,
       "username": "1guy1phone",
       "followers": 3,
@@ -1157,7 +1157,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 310,
       "username": "Animanga06",
       "followers": 3,
@@ -1166,7 +1166,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 328,
       "username": "quincy",
       "followers": 3,
@@ -1175,7 +1175,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 330,
       "username": "xeighty6_Bits1",
       "followers": 3,
@@ -1184,7 +1184,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 336,
       "username": "Floatzelous",
       "followers": 3,
@@ -1193,7 +1193,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 337,
       "username": "Dany64",
       "followers": 3,
@@ -1202,7 +1202,7 @@
       "verified": true
     },
     {
-      "rank": 102,
+      "rank": 103,
       "id": 352,
       "username": "efekaratas12435",
       "followers": 3,
@@ -2887,9 +2887,9 @@
     {
       "rank": 189,
       "id": 384,
-      "username": "tote",
+      "username": "lykoda",
       "followers": 1,
-      "avatar": "http://trls.uk/dynamic/avatars/avatar_384_fdcdd11f.jpg",
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_384_f8c02446.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=384",
       "verified": false
     },
@@ -2955,6 +2955,15 @@
       "avatar": "http://trls.uk/static/da.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=393",
       "verified": false
+    },
+    {
+      "rank": 189,
+      "id": 394,
+      "username": "v4lentines",
+      "followers": 1,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=394",
+      "verified": true
     },
     {
       "rank": 189,
@@ -3056,7 +3065,7 @@
       "verified": false
     },
     {
-      "rank": 340,
+      "rank": 341,
       "id": 324,
       "username": "Aman42",
       "followers": 0,
@@ -3065,13 +3074,13 @@
       "verified": true
     },
     {
-      "rank": 340,
-      "id": 394,
-      "username": "v4lentines",
+      "rank": 341,
+      "id": 411,
+      "username": "edyclick",
       "followers": 0,
       "avatar": "http://trls.uk/static/da.png",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=394",
-      "verified": true
+      "profile": "https://trellis.consciousb.one/web/user.php?id=411",
+      "verified": false
     }
   ]
 }
