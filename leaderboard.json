@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-10T21:29:26.030Z",
+  "generatedAt": "2026-11-11T01:25:31.437Z",
   "totalFetched": 1000,
-  "failed": 657,
-  "count": 343,
+  "failed": 656,
+  "count": 344,
   "leaderboard": [
     {
       "rank": 1,
@@ -26,7 +26,7 @@
       "rank": 3,
       "id": 2,
       "username": "ConsciousBone         Verified",
-      "followers": 99,
+      "followers": 100,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_2_18092d0a.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=2",
       "verified": true
@@ -2999,7 +2999,7 @@
       "followers": 1,
       "avatar": "http://trls.uk/dynamic/avatars/399_1794056247.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=399",
-      "verified": false
+      "verified": true
     },
     {
       "rank": 193,
@@ -3089,6 +3089,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/static/da.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=385",
+      "verified": false
+    },
+    {
+      "rank": 342,
+      "id": 413,
+      "username": "ethanthestickfigure",
+      "followers": 0,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=413",
       "verified": false
     }
   ]
