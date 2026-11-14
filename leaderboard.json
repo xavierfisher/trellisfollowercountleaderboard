@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-13T19:24:38.275Z",
+  "generatedAt": "2026-11-14T00:24:16.699Z",
   "totalFetched": 1000,
-  "failed": 654,
-  "count": 346,
+  "failed": 653,
+  "count": 347,
   "leaderboard": [
     {
       "rank": 1,
       "id": 47,
       "username": "zachking         Verified",
-      "followers": 135,
+      "followers": 136,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/8B7C4D1C43989321337627697152_1c8c3b66554.3.2_gFUQczJD5TTWOHv1D.29VSre6aYY4WISIjqqMNpL6lErU16rQVlQd3VwRhAiTzvd.jpg?versionId=VeRx1.1B.9PEDYXTT2dEJtnrNPn_lwvh",
       "profile": "https://trellis.consciousb.one/web/user.php?id=47",
       "verified": true
@@ -80,7 +80,7 @@
       "rank": 9,
       "id": 94,
       "username": "kingbach         Verified",
-      "followers": 54,
+      "followers": 55,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/5E743D1BB41073728639507505152_1e6a8742399.4.4.jpg?versionId=JIjnvXTkbWpjvk7glYZIXDqt187couHr",
       "profile": "https://trellis.consciousb.one/web/user.php?id=94",
       "verified": true
@@ -3111,12 +3111,21 @@
     },
     {
       "rank": 344,
+      "id": 396,
+      "username": "redchihuahua2000",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/396_1794607918.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=396",
+      "verified": true
+    },
+    {
+      "rank": 344,
       "id": 410,
       "username": "YKmeow",
       "followers": 0,
       "avatar": "http://trls.uk/static/da.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=410",
-      "verified": false
+      "verified": true
     }
   ]
 }
