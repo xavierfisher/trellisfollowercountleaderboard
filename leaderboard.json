@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T16:28:46.816Z",
+  "generatedAt": "2026-11-15T21:09:59.834Z",
   "totalFetched": 1000,
   "failed": 654,
   "count": 346,
@@ -26,7 +26,7 @@
       "rank": 3,
       "id": 2,
       "username": "ConsciousBone         Verified",
-      "followers": 101,
+      "followers": 100,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_2_18092d0a.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=2",
       "verified": true
@@ -204,15 +204,6 @@
     },
     {
       "rank": 23,
-      "id": 4,
-      "username": "Nine         Verified",
-      "followers": 17,
-      "avatar": "https://trellis.consciousb.one/dynamic/avatars/4_1782590585.jpg",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=4",
-      "verified": true
-    },
-    {
-      "rank": 23,
       "id": 17,
       "username": "iGavin         Verified",
       "followers": 17,
@@ -230,7 +221,16 @@
       "verified": true
     },
     {
-      "rank": 26,
+      "rank": 25,
+      "id": 4,
+      "username": "Nine         Verified",
+      "followers": 16,
+      "avatar": "https://trellis.consciousb.one/dynamic/avatars/4_1782590585.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=4",
+      "verified": true
+    },
+    {
+      "rank": 25,
       "id": 21,
       "username": "aidenlovesstuff",
       "followers": 16,
