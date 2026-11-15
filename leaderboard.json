@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T09:23:07.778Z",
+  "generatedAt": "2026-11-15T16:28:46.816Z",
   "totalFetched": 1000,
   "failed": 654,
   "count": 346,
@@ -1269,7 +1269,7 @@
       "id": 72,
       "username": "fadingandrew",
       "followers": 2,
-      "avatar": "http://trls.uk/dynamic/avatars/avatar_72_9a2a6024.png",
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_72_cfa7ddec.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=72",
       "verified": true
     },
