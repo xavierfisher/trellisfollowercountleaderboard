@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-16T00:59:05.401Z",
+  "generatedAt": "2026-11-16T07:45:53.587Z",
   "totalFetched": 1000,
-  "failed": 649,
-  "count": 351,
+  "failed": 646,
+  "count": 354,
   "leaderboard": [
     {
       "rank": 1,
       "id": 47,
       "username": "zachking         Verified",
-      "followers": 135,
+      "followers": 137,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/8B7C4D1C43989321337627697152_1c8c3b66554.3.2_gFUQczJD5TTWOHv1D.29VSre6aYY4WISIjqqMNpL6lErU16rQVlQd3VwRhAiTzvd.jpg?versionId=VeRx1.1B.9PEDYXTT2dEJtnrNPn_lwvh",
       "profile": "https://trellis.consciousb.one/web/user.php?id=47",
       "verified": true
@@ -26,7 +26,7 @@
       "rank": 3,
       "id": 2,
       "username": "ConsciousBone         Verified",
-      "followers": 100,
+      "followers": 101,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_2_18092d0a.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=2",
       "verified": true
@@ -35,7 +35,7 @@
       "rank": 4,
       "id": 3,
       "username": "Astro15         Verified",
-      "followers": 95,
+      "followers": 96,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/3_1787663057.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=3",
       "verified": true
@@ -44,7 +44,7 @@
       "rank": 5,
       "id": 23,
       "username": "iOS5Xclusive",
-      "followers": 93,
+      "followers": 94,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/23_1782716450.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=23",
       "verified": true
@@ -62,7 +62,7 @@
       "rank": 7,
       "id": 38,
       "username": "cheese         Verified",
-      "followers": 82,
+      "followers": 83,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_38_6fc0a347.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=38",
       "verified": true
@@ -80,7 +80,7 @@
       "rank": 9,
       "id": 94,
       "username": "kingbach         Verified",
-      "followers": 56,
+      "followers": 57,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/5E743D1BB41073728639507505152_1e6a8742399.4.4.jpg?versionId=JIjnvXTkbWpjvk7glYZIXDqt187couHr",
       "profile": "https://trellis.consciousb.one/web/user.php?id=94",
       "verified": true
@@ -450,7 +450,7 @@
       "id": 141,
       "username": "soggy_waffle",
       "followers": 8,
-      "avatar": "http://trls.uk/dynamic/avatars/141_1792038562.jpg",
+      "avatar": "http://trls.uk/dynamic/avatars/141_1794807933.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=141",
       "verified": true
     },
@@ -3138,12 +3138,30 @@
     },
     {
       "rank": 344,
+      "id": 418,
+      "username": "Persvicx",
+      "followers": 0,
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=418",
+      "verified": true
+    },
+    {
+      "rank": 344,
+      "id": 423,
+      "username": "Aadvikpro3g",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_423_08dbde4a.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=423",
+      "verified": true
+    },
+    {
+      "rank": 344,
       "id": 424,
       "username": "LegoshiBeastarsVines",
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/avatar_424_abffb8fa.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=424",
-      "verified": false
+      "verified": true
     },
     {
       "rank": 344,
@@ -3152,6 +3170,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/avatar_426_563081d8.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=426",
+      "verified": false
+    },
+    {
+      "rank": 344,
+      "id": 427,
+      "username": "HaXeNo",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_427_dde1559a.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=427",
       "verified": false
     },
     {
