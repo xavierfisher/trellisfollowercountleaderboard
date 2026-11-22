@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-22T15:57:48.977Z",
+  "generatedAt": "2026-11-22T21:34:47.460Z",
   "totalFetched": 1000,
-  "failed": 639,
-  "count": 361,
+  "failed": 638,
+  "count": 362,
   "leaderboard": [
     {
       "rank": 1,
@@ -17,7 +17,7 @@
       "rank": 2,
       "id": 34,
       "username": "Xavier",
-      "followers": 117,
+      "followers": 118,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_34_aca7431b.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=34",
       "verified": true
@@ -26,7 +26,7 @@
       "rank": 3,
       "id": 2,
       "username": "ConsciousBone         Verified",
-      "followers": 102,
+      "followers": 103,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_2_18092d0a.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=2",
       "verified": true
@@ -62,7 +62,7 @@
       "rank": 7,
       "id": 38,
       "username": "cheese         Verified",
-      "followers": 86,
+      "followers": 87,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_38_6fc0a347.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=38",
       "verified": true
@@ -71,7 +71,7 @@
       "rank": 8,
       "id": 8,
       "username": "Preloading         Verified",
-      "followers": 74,
+      "followers": 75,
       "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_8_2cbf12dc.png",
       "profile": "https://trellis.consciousb.one/web/user.php?id=8",
       "verified": true
@@ -80,7 +80,7 @@
       "rank": 9,
       "id": 94,
       "username": "kingbach         Verified",
-      "followers": 60,
+      "followers": 61,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/5E743D1BB41073728639507505152_1e6a8742399.4.4.jpg?versionId=JIjnvXTkbWpjvk7glYZIXDqt187couHr",
       "profile": "https://trellis.consciousb.one/web/user.php?id=94",
       "verified": true
@@ -3030,6 +3030,15 @@
     },
     {
       "rank": 197,
+      "id": 398,
+      "username": "Zephyr",
+      "followers": 2,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_398_10c2f83a.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=398",
+      "verified": true
+    },
+    {
+      "rank": 197,
       "id": 401,
       "username": "EpikiOS",
       "followers": 2,
@@ -3182,7 +3191,7 @@
       "verified": true
     },
     {
-      "rank": 354,
+      "rank": 355,
       "id": 191,
       "username": "npcbot",
       "followers": 1,
@@ -3191,7 +3200,7 @@
       "verified": true
     },
     {
-      "rank": 354,
+      "rank": 355,
       "id": 365,
       "username": "antix",
       "followers": 1,
@@ -3200,7 +3209,7 @@
       "verified": true
     },
     {
-      "rank": 354,
+      "rank": 355,
       "id": 381,
       "username": "azz         Verified",
       "followers": 1,
@@ -3209,16 +3218,7 @@
       "verified": true
     },
     {
-      "rank": 354,
-      "id": 398,
-      "username": "Zephyr",
-      "followers": 1,
-      "avatar": "http://trls.uk/dynamic/avatars/avatar_398_10c2f83a.png",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=398",
-      "verified": true
-    },
-    {
-      "rank": 354,
+      "rank": 355,
       "id": 436,
       "username": "Count_Crimsonwire",
       "followers": 1,
@@ -3227,7 +3227,7 @@
       "verified": false
     },
     {
-      "rank": 354,
+      "rank": 355,
       "id": 437,
       "username": "imyahirsanchez",
       "followers": 1,
@@ -3236,7 +3236,7 @@
       "verified": true
     },
     {
-      "rank": 354,
+      "rank": 355,
       "id": 438,
       "username": "Lecreusetxcx",
       "followers": 1,
@@ -3251,6 +3251,15 @@
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/324_1791628268.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=324",
+      "verified": true
+    },
+    {
+      "rank": 361,
+      "id": 443,
+      "username": "fuckbyte",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_443_7b3c02a7.webp",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=443",
       "verified": true
     }
   ]
