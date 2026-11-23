@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-23T10:16:52.972Z",
+  "generatedAt": "2026-11-23T22:05:33.624Z",
   "totalFetched": 1000,
-  "failed": 637,
-  "count": 363,
+  "failed": 635,
+  "count": 365,
   "leaderboard": [
     {
       "rank": 1,
       "id": 47,
       "username": "zachking         Verified",
-      "followers": 139,
+      "followers": 141,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/8B7C4D1C43989321337627697152_1c8c3b66554.3.2_gFUQczJD5TTWOHv1D.29VSre6aYY4WISIjqqMNpL6lErU16rQVlQd3VwRhAiTzvd.jpg?versionId=VeRx1.1B.9PEDYXTT2dEJtnrNPn_lwvh",
       "profile": "https://trellis.consciousb.one/web/user.php?id=47",
       "verified": true
@@ -71,7 +71,7 @@
       "rank": 8,
       "id": 94,
       "username": "kingbach         Verified",
-      "followers": 61,
+      "followers": 62,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/5E743D1BB41073728639507505152_1e6a8742399.4.4.jpg?versionId=JIjnvXTkbWpjvk7glYZIXDqt187couHr",
       "profile": "https://trellis.consciousb.one/web/user.php?id=94",
       "verified": true
@@ -113,10 +113,10 @@
       "verified": true
     },
     {
-      "rank": 13,
+      "rank": 12,
       "id": 96,
       "username": "thomassanders         Verified",
-      "followers": 34,
+      "followers": 35,
       "avatar": "http://vines.s3.amazonaws.com/v/avatars/B41B41E5-B242-4ED5-B2FF-6E9D790DD03B-8147-000008DB5621E9F4.jpg?versionId=lyTonffRZqXJstBg7loUwx0p2NxQcj.C",
       "profile": "https://trellis.consciousb.one/web/user.php?id=96",
       "verified": true
@@ -132,6 +132,15 @@
     },
     {
       "rank": 15,
+      "id": 119,
+      "username": "sz0ty1",
+      "followers": 28,
+      "avatar": "http://trls.uk/dynamic/avatars/119_1792512538.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=119",
+      "verified": true
+    },
+    {
+      "rank": 16,
       "id": 5,
       "username": "Trellis         Verified",
       "followers": 27,
@@ -140,21 +149,12 @@
       "verified": true
     },
     {
-      "rank": 15,
+      "rank": 16,
       "id": 43,
       "username": "Fletchr",
       "followers": 27,
       "avatar": "http://trls.uk/dynamic/avatars/43_1792455534.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=43",
-      "verified": true
-    },
-    {
-      "rank": 15,
-      "id": 119,
-      "username": "sz0ty1",
-      "followers": 27,
-      "avatar": "http://trls.uk/dynamic/avatars/119_1792512538.jpg",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=119",
       "verified": true
     },
     {
@@ -3227,7 +3227,16 @@
       "verified": false
     },
     {
-      "rank": 359,
+      "rank": 354,
+      "id": 439,
+      "username": "Bryson",
+      "followers": 1,
+      "avatar": "http://trls.uk/dynamic/avatars/439_1795403219.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=439",
+      "verified": false
+    },
+    {
+      "rank": 360,
       "id": 324,
       "username": "Aman42",
       "followers": 0,
@@ -3236,7 +3245,7 @@
       "verified": true
     },
     {
-      "rank": 359,
+      "rank": 360,
       "id": 365,
       "username": "antix",
       "followers": 0,
@@ -3245,16 +3254,16 @@
       "verified": false
     },
     {
-      "rank": 359,
-      "id": 439,
-      "username": "Bryson",
+      "rank": 360,
+      "id": 435,
+      "username": "nitrografx3000",
       "followers": 0,
-      "avatar": "http://trls.uk/dynamic/avatars/439_1795403219.jpg",
-      "profile": "https://trellis.consciousb.one/web/user.php?id=439",
+      "avatar": "http://trls.uk/static/da.png",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=435",
       "verified": false
     },
     {
-      "rank": 359,
+      "rank": 360,
       "id": 441,
       "username": "ItsCrystal",
       "followers": 0,
@@ -3263,12 +3272,21 @@
       "verified": false
     },
     {
-      "rank": 359,
+      "rank": 360,
       "id": 443,
       "username": "fuckbyte",
       "followers": 0,
       "avatar": "http://trls.uk/dynamic/avatars/avatar_443_7b3c02a7.webp",
       "profile": "https://trellis.consciousb.one/web/user.php?id=443",
+      "verified": true
+    },
+    {
+      "rank": 360,
+      "id": 444,
+      "username": "kadzzyx",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_444_f6ec70ad.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=444",
       "verified": true
     }
   ]
