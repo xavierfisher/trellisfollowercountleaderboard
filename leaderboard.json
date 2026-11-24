@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T22:05:33.624Z",
+  "generatedAt": "2026-11-24T05:57:13.308Z",
   "totalFetched": 1000,
   "failed": 635,
   "count": 365,
@@ -89,7 +89,7 @@
       "rank": 10,
       "id": 28,
       "username": "iiMorgan360",
-      "followers": 48,
+      "followers": 49,
       "avatar": "http://trls.uk/dynamic/avatars/28_1794663849.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=28",
       "verified": true
