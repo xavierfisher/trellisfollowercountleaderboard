@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-26T02:28:19.541Z",
+  "generatedAt": "2026-11-26T11:20:57.100Z",
   "totalFetched": 1000,
-  "failed": 630,
-  "count": 370,
+  "failed": 628,
+  "count": 372,
   "leaderboard": [
     {
       "rank": 1,
@@ -3306,6 +3306,24 @@
       "avatar": "http://trls.uk/dynamic/avatars/avatar_444_f6ec70ad.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=444",
       "verified": true
+    },
+    {
+      "rank": 362,
+      "id": 446,
+      "username": "slimjim05",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/446_1795676210.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=446",
+      "verified": false
+    },
+    {
+      "rank": 362,
+      "id": 449,
+      "username": "Elsansanok",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_449_da5dc7ac.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=449",
+      "verified": false
     },
     {
       "rank": 362,
