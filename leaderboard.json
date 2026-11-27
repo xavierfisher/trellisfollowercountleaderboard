@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-27T11:44:28.714Z",
+  "generatedAt": "2026-11-27T20:20:33.416Z",
   "totalFetched": 1000,
-  "failed": 628,
-  "count": 372,
+  "failed": 627,
+  "count": 373,
   "leaderboard": [
     {
       "rank": 1,
@@ -3351,6 +3351,15 @@
       "avatar": "http://trls.uk/dynamic/avatars/450_1795628979.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=450",
       "verified": true
+    },
+    {
+      "rank": 367,
+      "id": 457,
+      "username": "neversettled",
+      "followers": 0,
+      "avatar": "http://trls.uk/dynamic/avatars/avatar_457_595c8063.jpg",
+      "profile": "https://trellis.consciousb.one/web/user.php?id=457",
+      "verified": false
     }
   ]
 }
