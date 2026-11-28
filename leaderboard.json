@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T02:49:05.870Z",
+  "generatedAt": "2026-11-28T10:56:34.825Z",
   "totalFetched": 1000,
   "failed": 626,
   "count": 374,
@@ -71,7 +71,7 @@
       "rank": 8,
       "id": 94,
       "username": "kingbach         Verified",
-      "followers": 63,
+      "followers": 64,
       "avatar": "http://vines.s3.amazonaws.com/r/avatars/5E743D1BB41073728639507505152_1e6a8742399.4.4.jpg?versionId=JIjnvXTkbWpjvk7glYZIXDqt187couHr",
       "profile": "https://trellis.consciousb.one/web/user.php?id=94",
       "verified": true
@@ -2185,9 +2185,9 @@
     {
       "rank": 181,
       "id": 220,
-      "username": "KOT",
+      "username": "Blackscorpio",
       "followers": 2,
-      "avatar": "https://trellis.consciousb.one/dynamic/avatars/avatar_220_56199ece.png",
+      "avatar": "http://trls.uk/dynamic/avatars/220_1795861713.jpg",
       "profile": "https://trellis.consciousb.one/web/user.php?id=220",
       "verified": true
     },
